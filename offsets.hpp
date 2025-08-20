@@ -46,7 +46,7 @@ namespace RBX {
             JumpPower = 0x1B8,
             Sit = 0x1E3,
             DisplayName = 0x118,
-            UserID = 0x260,
+            UserID = 0x270,
             MoveDirection = 0x160,
             Health = 0x19C,
             MaxHealth = 0x1BC,
@@ -54,7 +54,7 @@ namespace RBX {
             MeshId = 0x2d8,
             TextureID = 0x308,
             BasePartColor = 0x1c4,
-            Anchored = 0x303
+            Anchored = 0x307
         };
         enum Part : uint32_t {
             Primitive = 0x178,
@@ -66,8 +66,8 @@ namespace RBX {
             PartSize = 0x254,
             Position = 0x14C,
             Rotation = 0x130,
-            CanCollide = 0x303,
-            CanCollideCheck = 0x303,
+            CanCollide = 0x307,
+            CanCollideCheck = 0x307,
             Velocity = 0x158,
             Material = 0x2D8,
             Transparency = 0xF8
@@ -105,7 +105,6 @@ namespace RBX {
             ViewportSize = 0x300,
             ViewMatrix = 0x4B0,
             Dimensions = 0x720,
-            VisualEnginePointer = 0x6535DD8,
             VisualEngine = 0x10
         };
         enum SkyBox : uint32_t {
