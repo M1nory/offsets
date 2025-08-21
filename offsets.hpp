@@ -36,7 +36,8 @@ namespace RBX {
             Team = 0x248,
             TeamColor = 0xD8,
             LocalPlayer = 0x128,
-            CharacterAppearanceId = 0x260
+            CharacterAppearanceId = 0x260,
+            PhysicsSenderMaxBandwidthBps = 0x5e80984
         };
         enum Humanoid : uint32_t {
             WalkSpeed = 0x1DC,
