@@ -63,7 +63,7 @@ namespace RBX {
             PrimitiveValidateValue = 0x6,
             PrimitivesPointer1 = 0x3D8,
             PrimitivesPointer2 = 0x210,
-            CFrame = 0x128,
+            CFrame = 0x12C,
             PartSize = 0x254,
             Position = 0x14C,
             Rotation = 0x130,
