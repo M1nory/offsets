@@ -64,7 +64,7 @@ namespace RBX {
             PrimitivesPointer1 = 0x3D8,
             PrimitivesPointer2 = 0x210,
             CFrame = 0x130,
-            PartSize = 0x254,
+            PartSize = 0x250,
             Position = 0x154,
             Rotation = 0x130,
             CanCollide = 0x307,
