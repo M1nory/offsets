@@ -69,7 +69,7 @@ namespace RBX {
             Rotation = 0x130,
             CanCollide = 0x307,
             CanCollideCheck = 0x307,
-            Velocity = 0x158,
+            Velocity = 0x160,
             Material = 0x2D8,
             Transparency = 0xF8
         };
