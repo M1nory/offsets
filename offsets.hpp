@@ -16,7 +16,7 @@ namespace RBX {
             OnDemandInstance = 0x30
         };
         enum Instance : uint32_t {
-            TextLabelText = 0xe00,
+            TextLabelText = 0xa88,
             ChildSize = 0x8,
             StringSize = 0x10,
             ClassNameString = 0x8,
