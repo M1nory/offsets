@@ -55,7 +55,7 @@ namespace RBX {
             MeshId = 0x2d8,
             TextureID = 0x308,
             BasePartColor = 0x1c4,
-            Anchored = 0x307
+            Anchored = 0x2e5
         };
         enum Part : uint32_t {
             Primitive = 0x178,
@@ -67,8 +67,8 @@ namespace RBX {
             PartSize = 0x23c,
             Position = 0x154,
             Rotation = 0x130,
-            CanCollide = 0x307,
-            CanCollideCheck = 0x307,
+            CanCollide = 0x2e5,
+            CanCollideCheck = 0x2e5,
             Velocity = 0x160,
             Material = 0x2D8,
             Transparency = 0xF8
