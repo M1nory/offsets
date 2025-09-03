@@ -33,7 +33,7 @@ namespace RBX {
         };
         enum Player : uint32_t {
             ModelInstance = 0x338,
-            Team = 0x248,
+            Team = 0x258,
             TeamColor = 0xD8,
             LocalPlayer = 0x128,
             CharacterAppearanceId = 0x260,
