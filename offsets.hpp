@@ -114,8 +114,8 @@ namespace RBX {
             SkyboxDn = 0x130,
             SkyboxFt = 0x158,
             SkyboxLf = 0x180,
-            SkyboxRt = 0x1A8,
-            SkyboxUp = 0x1D0,
+            SkyboxRt = 0x1a8,
+            SkyboxUp = 0x1d0,
             StarCount = 0x228,
             CelestialBodiesShown = 0x230
         };
