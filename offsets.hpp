@@ -75,8 +75,8 @@ namespace RBX {
         };
         enum Input : uint32_t {
             MouseSensitivity = 0x710c710,
-            FramePositionOffsetX = 0x4C4,
-            FramePositionOffsetY = 0x4CC,
+            FramePositionOffsetX = 0x4d4,
+            FramePositionOffsetY = 0x4DC,
             MousePosition = 0xF4,
             InputObject = 0x118,
             Tool_Grip_Position = 0x45C
