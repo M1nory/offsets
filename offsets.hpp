@@ -3,7 +3,7 @@ namespace RBX {
         enum DataModel : uint32_t {
             GameID = 0x198,
             PlaceID = 0x1A0,
-            FakeDataModelPointer = 0x7097018,
+            FakeDataModelPointer = 0x70b1ef8,
             FakeDataModelToDataModel = 0x1c0,
             DataModelToRenderView1 = 0x1D8,
             DataModelToRenderView2 = 0x8,
