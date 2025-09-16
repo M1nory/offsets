@@ -16,7 +16,7 @@ namespace RBX {
             OnDemandInstance = 0x30
         };
         enum Instance : uint32_t {
-            TextLabelText = 0xe30,
+            TextLabelText = 0xa88,
             ChildSize = 0x8,
             StringSize = 0x10,
             ClassNameString = 0x8,
@@ -74,7 +74,7 @@ namespace RBX {
             Transparency = 0xF8
         };
         enum Input : uint32_t {
-            MouseSensitivity = 0x710c710,
+            MouseSensitivity = 0x7126b60,
             FramePositionOffsetX = 0x4B4,
             FramePositionOffsetY = 0x4BC,
             MousePosition = 0xF4,
