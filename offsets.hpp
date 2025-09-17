@@ -32,7 +32,7 @@ namespace RBX {
             propertiesEnd = 0x48
         };
         enum Player : uint32_t {
-            ModelInstance = 0x338,
+            ModelInstance = 0x348,
             Team = 0x258,
             TeamColor = 0xD8,
             LocalPlayer = 0x128,
