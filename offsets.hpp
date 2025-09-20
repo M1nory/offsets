@@ -45,9 +45,9 @@ namespace RBX {
             HumanoidState = 0x870,
             HumanoidStateId = 0x20,
             JumpPower = 0x1B8,
-            Sit = 0x1E3,
+            Sit = 0x1e9,
             DisplayName = 0x118,
-            UserID = 0x270,
+            UserID = 0x290,
             MoveDirection = 0x160,
             Health = 0x19C,
             MaxHealth = 0x1BC,
@@ -74,9 +74,9 @@ namespace RBX {
             Transparency = 0xF8
         };
         enum Input : uint32_t {
-            MouseSensitivity = 0x7126b60,
-            FramePositionOffsetX = 0x4B4,
-            FramePositionOffsetY = 0x4BC,
+            MouseSensitivity = 0x711ba20,
+            FramePositionOffsetX = 0x4dc,
+            FramePositionOffsetY = 0x4e4,
             MousePosition = 0xF4,
             InputObject = 0x118,
             Tool_Grip_Position = 0x45C
