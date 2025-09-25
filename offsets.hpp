@@ -37,7 +37,7 @@ namespace RBX {
             TeamColor = 0xD8,
             LocalPlayer = 0x128,
             CharacterAppearanceId = 0x260,
-            PhysicsSenderMaxBandwidthBps = 0x5f3decc
+            PhysicsSenderMaxBandwidthBps = 0x5ff7ee4
         };
         enum Humanoid : uint32_t {
             WalkSpeed = 0x1DC,
@@ -74,7 +74,7 @@ namespace RBX {
             Transparency = 0xF8
         };
         enum Input : uint32_t {
-            MouseSensitivity = 0x711ba20,
+            MouseSensitivity = 0x729e230,
             FramePositionOffsetX = 0x4dc,
             FramePositionOffsetY = 0x4e4,
             MousePosition = 0xF4,
