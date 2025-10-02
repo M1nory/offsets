@@ -74,7 +74,7 @@ namespace RBX {
             Transparency = 0xF8
         };
         enum Input : uint32_t {
-            MouseSensitivity = 0x729e230,
+            MouseSensitivity = 0x7338db0,
             FramePositionOffsetX = 0x4dc,
             FramePositionOffsetY = 0x4e4,
             MousePosition = 0xF4,
