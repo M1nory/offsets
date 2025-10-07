@@ -1,6 +1,7 @@
 namespace Offsets {
     enum External : uintptr_t {
 
+         Adornee = 0xd8,                                       
          Anchored = 0x2e5,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xd8,                                   
@@ -41,7 +42,7 @@ namespace Offsets {
          FramePositionY = 0x4e0,                               
          FrameRotation = 0x190,                                
          GameId = 0x198,                                       
-         GameLoaded = 0x688,                                   
+         GameLoaded = 0x56,                                    
          Gender = 0xe30,                                       
          GetSetImplementation = 0xa0,                          
          GlobalShadows = 0x130,                                
@@ -60,7 +61,6 @@ namespace Offsets {
          MaxHealth = 0x1bc,                                    
          MaxSlopeAngle = 0x1c0,                                
          MeshId = 0x310,                                       
-         MeshTexture = 0xf10,                                  
          ModelInstance = 0x348,                                
          MousePosition = 0xf4,                                 
          MoveDirection = 0x160,                                
@@ -73,7 +73,9 @@ namespace Offsets {
          PartRotation = 0x130,                                 
          PartSize = 0x23c,                                     
          PartVelocity = 0x160,                                 
+         Ping = 0xd0,                                          
          PlaceId = 0x1a0,                                      
+         PlaceVersion = 0x1c8,                                 
          PlatformName = 0xe70,                                 
          PlatformStand = 0x1e7,                                
          PrimaryPart = 0x268,                                  
@@ -82,6 +84,7 @@ namespace Offsets {
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3d8,                           
          PrimitivesPointer2 = 0x210,                           
+         PropertyDescriptor = 0xc88,                           
          ReadOnlyGravity = 0x998,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6054edc, 
@@ -118,7 +121,7 @@ namespace Offsets {
          WorldStepMax = 0x6058858,                             
          WorldStepsOffsetAdjustRate = 0x6058850,               
 
-        constexpr size_t TotalOffsets = 116;
+        constexpr size_t TotalOffsets = 119;
 
     };
 }
