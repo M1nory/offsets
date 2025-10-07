@@ -1,5 +1,5 @@
 namespace Offsets {
-    enum External : uintptr_t {
+    enum Offsetss : uintptr_t {
 
          Anchored = 0x2e5,                           // Dumped by https://discord.gg/2BQfbUwjkS
          AnchoredMask = 0x2,                         // Dumped by https://discord.gg/2BQfbUwjkS
