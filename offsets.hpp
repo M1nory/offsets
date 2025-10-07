@@ -1,123 +1,120 @@
-namespace RBX {
-    namespace Offsets {
-        enum DataModel : uint32_t {
-            GameID = 0x198,
-            PlaceID = 0x1A0,
-            FakeDataModelPointer = 0x71cbe48,
-            FakeDataModelToDataModel = 0x1c0,
-            DataModelToRenderView1 = 0x1D8,
-            DataModelToRenderView2 = 0x8,
-            DataModelToRenderView3 = 0x28,   
-            RenderToFakeDataModel = 0x38,
-            IsLoaded = 0x6A0,
-            AttributeList = 0x138,
-            AttributeToNext = 0x70,
-            AttributeToValue = 0x30, 
-            OnDemandInstance = 0x30
-        };
-        enum Instance : uint32_t {
-            TextLabelText = 0xdf0,
-            ChildSize = 0x8,
-            StringSize = 0x10,
-            ClassNameString = 0x8,
-            ClassDescriptor = 0x18,
-            PropertyDescriptor = 0x3C0,
-            ClassName = 0x18,
-            Name = 0x88,
-            Children = 0x68,
-            Parent = 0x58,
-            Adornee = 0xD8,
-            value = 0xD8,
-            propertiesStart = 0x38,
-            propertiesEnd = 0x48
-        };
-        enum Player : uint32_t {
-            ModelInstance = 0x348,
-            Team = 0x258,
-            TeamColor = 0xD8,
-            LocalPlayer = 0x128,
-            CharacterAppearanceId = 0x260,
-            PhysicsSenderMaxBandwidthBps = 0x5ff7ee4
-        };
-        enum Humanoid : uint32_t {
-            WalkSpeed = 0x1DC,
-            WalkSpeedCheck = 0x3B8,
-            HumanoidState = 0x870,
-            HumanoidStateId = 0x20,
-            JumpPower = 0x1B8,
-            Sit = 0x1e9,
-            DisplayName = 0x118,
-            UserID = 0x290,
-            MoveDirection = 0x160,
-            Health = 0x19C,
-            MaxHealth = 0x1BC,
-            Rigtype = 0x1D0,
-            MeshId = 0x2d8,
-            TextureID = 0x308,
-            BasePartColor = 0x1c4,
-            Anchored = 0x2e5
-        };
-        enum Part : uint32_t {
-            Primitive = 0x178,
-            PrimitiveGravity = 0x120,
-            PrimitiveValidateValue = 0x6,
-            PrimitivesPointer1 = 0x3D8,
-            PrimitivesPointer2 = 0x210,
-            CFrame = 0x130,
-            PartSize = 0x23c,
-            Position = 0x154,
-            Rotation = 0x130,
-            CanCollide = 0x2e5,
-            CanCollideCheck = 0x2e5,
-            Velocity = 0x160,
-            Material = 0x2D8,
-            Transparency = 0xF8
-        };
-        enum Input : uint32_t {
-            MouseSensitivity = 0x7338db0,
-            FramePositionOffsetX = 0x4dc,
-            FramePositionOffsetY = 0x4e4,
-            MousePosition = 0xF4,
-            InputObject = 0x118,
-            Tool_Grip_Position = 0x45C
-        };
-        enum Camera : uint32_t {
-            CameraRotation = 0x100,
-            Camera = 0x450,
-            CameraMode = 0x2C0,
-            CameraPos = 0x124,
-            CameraType = 0x160,
-            CameraSubject = 0xF0,
-            CameraMaxZoom = 0x2B8,
-            CameraMinZoom = 0x2BC,
-            CameraZoomLevel = 0x2B8 + 0x2BC,
-            FOV = 0x168
-        };
-        enum Workspace : uint32_t {
-            JobId = 0x140,
-            Workspace = 0x180,
-            Gravity = 0x968,
-            AnimationId = 0xD8,
-        };
-        enum PerformanceStatus : uint32_t {
-            Ping = 0xD0
-        };
-        enum VisualEngine : uint32_t {
-            RenderJobToRenderView = 0x218,
-            ViewportSize = 0x300,
-            ViewMatrix = 0x4B0,
-            Dimensions = 0x720,
-            VisualEngine = 0x10
-        };
-        enum SkyBox : uint32_t {
-            SkyboxBk = 0x108,
-            SkyboxDn = 0x130,
-            SkyboxFt = 0x158,
-            SkyboxLf = 0x180,
-            SkyboxRt = 0x1a8,
-            SkyboxUp = 0x1d0,
-            StarCount = 0x228,
-            CelestialBodiesShown = 0x230
-        };
-    }
+namespace Offsets {
+    enum External : uintptr_t {
+
+         Anchored = 0x2e5,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         AnchoredMask = 0x2,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         AnimationId = 0xd8,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         AutoJump = 0x1e0,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         AutoRotate = 0x1e1,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         BrickColor = 0x1c4,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         Camera = 0x450,                             // Dumped by https://discord.gg/2BQfbUwjkS
+         CameraFocus = 0x130,                        // Dumped by https://discord.gg/2BQfbUwjkS
+         CameraPosition = 0x124,                     // Dumped by https://discord.gg/2BQfbUwjkS
+         CameraRotation = 0x100,                     // Dumped by https://discord.gg/2BQfbUwjkS
+         CameraSubject = 0xf0,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         CanCollide = 0x2e5,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         CanCollideMask = 0x8,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         CanTouch = 0x2e5,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         CanTouchMask = 0x10,                        // Dumped by https://discord.gg/2BQfbUwjkS
+         CelestialBodiesShown = 0x230,               // Dumped by https://discord.gg/2BQfbUwjkS
+         Children = 0x68,                            // Dumped by https://discord.gg/2BQfbUwjkS
+         ChildrenSize = 0x8,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         ClassDescriptor = 0x18,                     // Dumped by https://discord.gg/2BQfbUwjkS
+         ClassDescriptorToClassName = 0x8,           // Dumped by https://discord.gg/2BQfbUwjkS
+         ColorShiftBottom = 0x20c,                   // Dumped by https://discord.gg/2BQfbUwjkS
+         ColorShiftTop = 0x218,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         CreatorId = 0x190,                          // Dumped by https://discord.gg/2BQfbUwjkS
+         DataModelDeleterPointer = 0x71cbe40,        // Dumped by https://discord.gg/2BQfbUwjkS
+         DataModelToRenderView1 = 0x1d8,             // Dumped by https://discord.gg/2BQfbUwjkS
+         DataModelToRenderView2  = 0x8,              // Dumped by https://discord.gg/2BQfbUwjkS
+         DataModelToRenderView3  = 0x28,             // Dumped by https://discord.gg/2BQfbUwjkS
+         Dimensions = 0x720,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         DisplayName = 0x118,                        // Dumped by https://discord.gg/2BQfbUwjkS
+         FOV = 0x168,                                // Dumped by https://discord.gg/2BQfbUwjkS
+         FakeDataModelPointer = 0x71cbe48,           // Dumped by https://discord.gg/2BQfbUwjkS
+         FakeDataModelToRealDataModel = 0x1c0,       // Dumped by https://discord.gg/2BQfbUwjkS
+         FogEnd = 0x13c,                             // Dumped by https://discord.gg/2BQfbUwjkS
+         FogStart = 0x140,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         FramePositionOffsetX = 0x4dc,               // Dumped by https://discord.gg/2BQfbUwjkS
+         FramePositionOffsetY = 0x4e4,               // Dumped by https://discord.gg/2BQfbUwjkS
+         FramePositionX = 0x4d8,                     // Dumped by https://discord.gg/2BQfbUwjkS
+         FramePositionY = 0x4e0,                     // Dumped by https://discord.gg/2BQfbUwjkS
+         FrameRotation = 0x190,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         GameId = 0x198,                             // Dumped by https://discord.gg/2BQfbUwjkS
+         GameLoaded = 0x688,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         Gender = 0xe30,                             // Dumped by https://discord.gg/2BQfbUwjkS
+         GetSetImplementation = 0xa0,                // Dumped by https://discord.gg/2BQfbUwjkS
+         GlobalShadows = 0x130,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         GlobalState = 0x140,                        // Dumped by https://discord.gg/2BQfbUwjkS
+         Health = 0x19c,                             // Dumped by https://discord.gg/2BQfbUwjkS
+         HumanoidState = 0x870,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         HumanoidStateId = 0x20,                     // Dumped by https://discord.gg/2BQfbUwjkS
+         InputObject1 = 0x108,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         InputObject2 = 0x118,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         IsCoreScript = 0x190,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         JobId = 0x140,                              // Dumped by https://discord.gg/2BQfbUwjkS
+         JobsPointer = 0x73dac58,                    // Dumped by https://discord.gg/2BQfbUwjkS
+         Jump = 0x1e5,                               // Dumped by https://discord.gg/2BQfbUwjkS
+         JumpPower = 0x1b8,                          // Dumped by https://discord.gg/2BQfbUwjkS
+         LocalPlayer = 0x128,                        // Dumped by https://discord.gg/2BQfbUwjkS
+         MaxHealth = 0x1bc,                          // Dumped by https://discord.gg/2BQfbUwjkS
+         MaxSlopeAngle = 0x1c0,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         MeshId = 0x310,                             // Dumped by https://discord.gg/2BQfbUwjkS
+         MeshTexture = 0xf10,                        // Dumped by https://discord.gg/2BQfbUwjkS
+         ModelInstance = 0x348,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         MousePosition = 0xf4,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         MoveDirection = 0x160,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         Name = 0x88,                                // Dumped by https://discord.gg/2BQfbUwjkS
+         NameDisplayDistance = 0x1c4,                // Dumped by https://discord.gg/2BQfbUwjkS
+         NameSize  = 0x10,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         Overlap = 0x288,                            // Dumped by https://discord.gg/2BQfbUwjkS
+         Parent = 0x58,                              // Dumped by https://discord.gg/2BQfbUwjkS
+         PartPosition = 0x154,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         PartRotation = 0x130,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         PartSize = 0x23c,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         PartVelocity = 0x160,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         PlaceId = 0x1a0,                            // Dumped by https://discord.gg/2BQfbUwjkS
+         PlatformName = 0xe70,                       // Dumped by https://discord.gg/2BQfbUwjkS
+         PlatformStand = 0x1e7,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         PrimaryPart = 0x268,                        // Dumped by https://discord.gg/2BQfbUwjkS
+         Primitive = 0x178,                          // Dumped by https://discord.gg/2BQfbUwjkS
+         PrimitiveValidateValue = 0x6,               // Dumped by https://discord.gg/2BQfbUwjkS
+         PrimitivesPointer1 = 0x3d8,                 // Dumped by https://discord.gg/2BQfbUwjkS
+         PrimitivesPointer2 = 0x210,                 // Dumped by https://discord.gg/2BQfbUwjkS
+         ReadOnlyGravity = 0x998,                    // Dumped by https://discord.gg/2BQfbUwjkS
+         RenderViewToVisualEngine = 0x10,            // Dumped by https://discord.gg/2BQfbUwjkS
+         RequireBypass = 0x878,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         RigType = 0x1d0,                            // Dumped by https://discord.gg/2BQfbUwjkS
+         Rotation = 0x138,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         RotationVelocity = 0x16c,                   // Dumped by https://discord.gg/2BQfbUwjkS
+         ScriptContext = 0x3d0,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         SensitivityPointer = 0x7338db0,             // Dumped by https://discord.gg/2BQfbUwjkS
+         ServerIp = 0x670,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         ShapeType = 0x2e2,                          // Dumped by https://discord.gg/2BQfbUwjkS
+         Sit = 0x1e9,                                // Dumped by https://discord.gg/2BQfbUwjkS
+         SkyboxBk = 0xe0,                            // Dumped by https://discord.gg/2BQfbUwjkS
+         SkyboxDn = 0x108,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         SkyboxFt = 0x130,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         SkyboxLf = 0x158,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         SkyboxRt = 0x180,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         SkyboxUp = 0x1a8,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         StarCount = 0x228,                          // Dumped by https://discord.gg/2BQfbUwjkS
+         TaskSchedulerPointer = 0x73daa78,           // Dumped by https://discord.gg/2BQfbUwjkS
+         Team = 0x258,                               // Dumped by https://discord.gg/2BQfbUwjkS
+         TeamColor = 0xd8,                           // Dumped by https://discord.gg/2BQfbUwjkS
+         TextLabelText = 0xdf0,                      // Dumped by https://discord.gg/2BQfbUwjkS
+         Texture = 0x1a0,                            // Dumped by https://discord.gg/2BQfbUwjkS
+         UserId = 0x290,                             // Dumped by https://discord.gg/2BQfbUwjkS
+         Value = 0xd8,                               // Dumped by https://discord.gg/2BQfbUwjkS
+         ViewMatrix = 0x4b0,                         // Dumped by https://discord.gg/2BQfbUwjkS
+         VisualEnginePointer = 0x6f31ef0,            // Dumped by https://discord.gg/2BQfbUwjkS
+         VisualEngineToDataModel1 = 0x700,           // Dumped by https://discord.gg/2BQfbUwjkS
+         VisualEngineToDataModel2 = 0x1c0,           // Dumped by https://discord.gg/2BQfbUwjkS
+         Walkspeed = 0x1dc,                          // Dumped by https://discord.gg/2BQfbUwjkS
+         WalkspeedCheck = 0x3b8,                     // Dumped by https://discord.gg/2BQfbUwjkS
+         Workspace = 0x180,                          // Dumped by https://discord.gg/2BQfbUwjkS
+
+        constexpr size_t TotalOffsets = 112;
+
+    };
 }
