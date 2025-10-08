@@ -1,11 +1,12 @@
-// Completed in 2.88605 seconds.
+// Completed in 2.08961 seconds.
 #pragma once
 #include <cstdint>
 
-// Roblox Version: version-494828652c274712
+// Roblox Version: version-d34359a5577645e2
 namespace Offsets {
     enum External : uintptr_t {
 
+         Adornee = 0xd0,                                       
          AnchoredMask = 0x2,                                   
          AnimationId = 0xd0,                                   
          AutoJump = 0x1d8,                                     
@@ -18,7 +19,7 @@ namespace Offsets {
          CameraSubject = 0xe8,                                 
          CanCollideMask = 0x8,                                 
          CanTouchMask = 0x10,                                  
-         CelestialBodiesShown = 0x228,                         
+         CelestialBodiesShown = 0x2b0,                         
          Children = 0x60,                                      
          ChildrenSize = 0x8,                                   
          ClassDescriptor = 0x18,                               
@@ -76,7 +77,7 @@ namespace Offsets {
          PartVelocity = 0x170,                                 
          Ping = 0xd0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0xb38,                                 
+         PlaceVersion = 0xe08,                                 
          PlatformName = 0xe70,                                 
          PlatformStand = 0x1df,                                
          PrimaryPart = 0x260,                                  
@@ -96,6 +97,7 @@ namespace Offsets {
          ScriptContext = 0x3d0,                                
          SensitivityPointer = 0x738bdb0,                       
          ServerIp = 0x668,                                     
+         ShapeType = 0x2bd,                                    
          Sit = 0x1e1,                                          
          SkyboxBk = 0xd8,                                      
          SkyboxDn = 0x100,                                     
@@ -116,12 +118,12 @@ namespace Offsets {
          VisualEngineToDataModel1 = 0x700,                     
          VisualEngineToDataModel2 = 0x1c0,                     
          Walkspeed = 0x1d4,                                    
-         WalkspeedCheck = 0x27e,                               
+         WalkspeedCheck = 0x3a0,                               
          Workspace = 0x178,                                    
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 114;
+        constexpr size_t TotalOffsets = 116;
 
     };
 }
