@@ -1,4 +1,4 @@
-// Completed in 2.00705 seconds.
+// Completed in 2.09472 seconds.
 #pragma once
 #include <cstdint>
 
@@ -19,7 +19,7 @@ namespace Offsets {
          CameraSubject = 0xe8,                                 
          CanCollideMask = 0x8,                                 
          CanTouchMask = 0x10,                                  
-         CelestialBodiesShown = 0x228,                         
+         CelestialBodiesShown = 0x2b0,                         
          Children = 0x60,                                      
          ChildrenSize = 0x8,                                   
          ClassDescriptor = 0x18,                               
