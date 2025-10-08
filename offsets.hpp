@@ -1,4 +1,4 @@
-// Completed in 2.09472 seconds.
+// Completed in 3.9715 seconds.
 #pragma once
 #include <cstdint>
 
@@ -19,7 +19,7 @@ namespace Offsets {
          CameraSubject = 0xe8,                                 
          CanCollideMask = 0x8,                                 
          CanTouchMask = 0x10,                                  
-         CelestialBodiesShown = 0x2b0,                         
+         CelestialBodiesShown = 0x228,                         
          Children = 0x60,                                      
          ChildrenSize = 0x8,                                   
          ClassDescriptor = 0x18,                               
@@ -71,13 +71,12 @@ namespace Offsets {
          NameSize  = 0x10,                                     
          Overlap = 0x288,                                      
          Parent = 0x50,                                        
-         PartPosition = 0x164,                                 
-         PartRotation = 0x140,                                 
+         PartPosition = 0x11c,                                 
+         PartRotation = 0xf8,                                  
          PartSize = 0x1cc,                                     
-         PartVelocity = 0x170,                                 
+         PartVelocity = 0x128,                                 
          Ping = 0xd0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0xe08,                                 
          PlatformName = 0xe70,                                 
          PlatformStand = 0x1df,                                
          PrimaryPart = 0x260,                                  
@@ -92,12 +91,11 @@ namespace Offsets {
          ReplicatorAnimationTrackLimitPerAnimator = 0x6090ef8, 
          RequireBypass = 0x870,                                
          RigType = 0x1c8,                                      
-         Rotation = 0x148,                                     
-         RotationVelocity = 0x17c,                             
+         Rotation = 0x100,                                     
+         RotationVelocity = 0x134,                             
          ScriptContext = 0x3d0,                                
          SensitivityPointer = 0x738bdb0,                       
          ServerIp = 0x668,                                     
-         ShapeType = 0x2bd,                                    
          Sit = 0x1e1,                                          
          SkyboxBk = 0xd8,                                      
          SkyboxDn = 0x100,                                     
@@ -109,7 +107,7 @@ namespace Offsets {
          TaskSchedulerPointer = 0x7434168,                     
          Team = 0x250,                                         
          TeamColor = 0xd0,                                     
-         TextLabelText = 0xde8,                                
+         TextLabelText = 0xa90,                                
          Texture = 0x198,                                      
          UserId = 0x288,                                       
          Value = 0xd0,                                         
@@ -123,7 +121,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 116;
+        constexpr size_t TotalOffsets = 114;
 
     };
 }
