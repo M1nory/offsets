@@ -1,4 +1,4 @@
-// Completed in 2.23735 seconds.
+// Completed in 3.05147 seconds.
 #pragma once
 #include <cstdint>
 
@@ -6,7 +6,7 @@
 namespace Offsets {
     enum External : uintptr_t {
 
-         Adornee = 0xd8,                                       
+         Adornee = 0x50,                                       
          AnchoredMask = 0x2,                                   
          AnimationId = 0xd0,                                   
          AutoJump = 0x1d8,                                     
@@ -77,7 +77,7 @@ namespace Offsets {
          PartVelocity = 0x170,                                 
          Ping = 0xd0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0xe08,                                 
+         PlaceVersion = 0xb38,                                 
          PlatformName = 0xe70,                                 
          PlatformStand = 0x1df,                                
          PrimaryPart = 0x260,                                  
@@ -108,7 +108,7 @@ namespace Offsets {
          TaskSchedulerPointer = 0x7434168,                     
          Team = 0x250,                                         
          TeamColor = 0xd0,                                     
-         TextLabelText = 0xa90,                                
+         TextLabelText = 0xde8,                                
          Texture = 0x198,                                      
          UserId = 0x288,                                       
          Value = 0xd0,                                         
@@ -119,10 +119,9 @@ namespace Offsets {
          Walkspeed = 0x1d4,                                    
          WalkspeedCheck = 0x3a0,                               
          Workspace = 0x178,                                    
-         WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 115;
+        constexpr size_t TotalOffsets = 114;
 
     };
 }
