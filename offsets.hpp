@@ -1,4 +1,4 @@
-// Completed in 2.31243 seconds.
+// Completed in 2.23735 seconds.
 #pragma once
 #include <cstdint>
 
@@ -126,3 +126,4 @@ namespace Offsets {
 
     };
 }
+
