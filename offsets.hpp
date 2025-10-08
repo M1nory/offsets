@@ -1,4 +1,4 @@
-// Completed in 2.07737 seconds.
+// Completed in 2.31243 seconds.
 #pragma once
 #include <cstdint>
 
@@ -71,9 +71,10 @@ namespace Offsets {
          NameSize  = 0x10,                                     
          Overlap = 0x288,                                      
          Parent = 0x50,                                        
-         PartPosition = 0xd9c,                                 
-         PartRotation = 0xd78,                                 
-         PartVelocity = 0xda8,                                 
+         PartPosition = 0x164,                                 
+         PartRotation = 0x140,                                 
+         PartSize = 0x1cc,                                     
+         PartVelocity = 0x170,                                 
          Ping = 0xd0,                                          
          PlaceId = 0x198,                                      
          PlaceVersion = 0xe08,                                 
@@ -91,8 +92,8 @@ namespace Offsets {
          ReplicatorAnimationTrackLimitPerAnimator = 0x6090ef8, 
          RequireBypass = 0x870,                                
          RigType = 0x1c8,                                      
-         Rotation = 0xd80,                                     
-         RotationVelocity = 0xdb4,                             
+         Rotation = 0x148,                                     
+         RotationVelocity = 0x17c,                             
          ScriptContext = 0x3d0,                                
          SensitivityPointer = 0x738bdb0,                       
          ServerIp = 0x668,                                     
@@ -121,7 +122,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 114;
+        constexpr size_t TotalOffsets = 115;
 
     };
 }
