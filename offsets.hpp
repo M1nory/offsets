@@ -1,4 +1,4 @@
-// Completed in 2.2509 seconds.
+// Completed in 2.11367 seconds.
 #pragma once
 #include <cstdint>
 
@@ -7,7 +7,6 @@ namespace Offsets {
     enum External : uintptr_t {
 
          Adornee = 0xd0,                                       
-         Anchored = 0x219,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xd0,                                   
          AutoJump = 0x1d8,                                     
@@ -18,9 +17,7 @@ namespace Offsets {
          CameraPosition = 0x11c,                               
          CameraRotation = 0xf8,                                
          CameraSubject = 0xe8,                                 
-         CanCollide = 0x219,                                   
          CanCollideMask = 0x8,                                 
-         CanTouch = 0x219,                                     
          CanTouchMask = 0x10,                                  
          CelestialBodiesShown = 0x228,                         
          Children = 0x60,                                      
@@ -80,12 +77,12 @@ namespace Offsets {
          PartVelocity = 0x128,                                 
          Ping = 0xd0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0x1c0,                                 
+         PlaceVersion = 0x53c,                                 
          PlatformName = 0xe70,                                 
          PlatformStand = 0x1df,                                
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x337,                               
+         PrimitiveCount = 0x4c0,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3d0,                           
          PrimitivesPointer2 = 0x210,                           
@@ -100,7 +97,7 @@ namespace Offsets {
          ScriptContext = 0x3d0,                                
          SensitivityPointer = 0x738bdb0,                       
          ServerIp = 0x668,                                     
-         ShapeType = 0x272,                                    
+         ShapeType = 0x20d,                                    
          Sit = 0x1e1,                                          
          SkyboxBk = 0xd8,                                      
          SkyboxDn = 0x100,                                     
@@ -121,12 +118,12 @@ namespace Offsets {
          VisualEngineToDataModel1 = 0x700,                     
          VisualEngineToDataModel2 = 0x1c0,                     
          Walkspeed = 0x1d4,                                    
-         WalkspeedCheck = 0x3a0,                               
+         WalkspeedCheck = 0x27e,                               
          Workspace = 0x178,                                    
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 119;
+        constexpr size_t TotalOffsets = 116;
 
     };
 }
