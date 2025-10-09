@@ -1,4 +1,4 @@
-// Completed in 2.10426 seconds.
+// Completed in 10.666 seconds.
 #pragma once
 #include <cstdint>
 
@@ -7,6 +7,7 @@ namespace Offsets {
     enum External : uintptr_t {
 
          Adornee = 0xd0,                                       
+         Anchored = 0x275,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xd0,                                   
          AutoJump = 0x1d8,                                     
@@ -17,7 +18,9 @@ namespace Offsets {
          CameraPosition = 0x11c,                               
          CameraRotation = 0xf8,                                
          CameraSubject = 0xe8,                                 
+         CanCollide = 0x275,                                   
          CanCollideMask = 0x8,                                 
+         CanTouch = 0x275,                                     
          CanTouchMask = 0x10,                                  
          CelestialBodiesShown = 0x228,                         
          Children = 0x60,                                      
@@ -123,7 +126,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 116;
+        constexpr size_t TotalOffsets = 119;
 
     };
 }
