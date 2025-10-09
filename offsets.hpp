@@ -1,4 +1,4 @@
-// Completed in 10.666 seconds.
+// Completed in 2.19294 seconds.
 #pragma once
 #include <cstdint>
 
@@ -101,6 +101,7 @@ namespace Offsets {
          ScriptContext = 0x3d0,                                
          SensitivityPointer = 0x738bdb0,                       
          ServerIp = 0x668,                                     
+         ShapeType = 0x272,                                    
          Sit = 0x1e1,                                          
          SkyboxBk = 0xd8,                                      
          SkyboxDn = 0x100,                                     
@@ -126,7 +127,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 119;
+        constexpr size_t TotalOffsets = 120;
 
     };
 }
