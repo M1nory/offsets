@@ -1,4 +1,4 @@
-// Completed in 2.43572 seconds.
+// Completed in 2.15559 seconds.
 #pragma once
 #include <cstdint>
 
@@ -34,6 +34,7 @@ namespace Offsets {
          DataModelToRenderView1 = 0x1d0,                       
          DataModelToRenderView2  = 0x8,                        
          DataModelToRenderView3  = 0x28,                       
+         DecalTexture = 0x198,                                 
          Dimensions = 0x720,                                   
          DisplayName = 0x110,                                  
          FOV = 0x160,                                          
@@ -126,7 +127,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 119;
+        constexpr size_t TotalOffsets = 120;
 
     };
 }
