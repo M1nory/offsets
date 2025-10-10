@@ -1,4 +1,4 @@
-// Completed in 2.15048 seconds.
+// Completed in 2.18861 seconds.
 #pragma once
 #include <cstdint>
 
@@ -7,6 +7,7 @@ namespace Offsets {
     enum External : uintptr_t {
 
          Adornee = 0xd0,                                       
+         Ambient = 0xd8,                                       
          Anchored = 0x255,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xd0,                                   
@@ -15,6 +16,8 @@ namespace Offsets {
          BrickColor = 0x1bc,                                   
          Camera = 0x448,                                       
          CameraFocus = 0x128,                                  
+         CameraMaxZoomDistance = 0x2d0,                        
+         CameraMinZoomDistance = 0x2d4,                        
          CameraPosition = 0x11c,                               
          CameraRotation = 0xf8,                                
          CameraSubject = 0xe8,                                 
@@ -27,8 +30,8 @@ namespace Offsets {
          ChildrenSize = 0x8,                                   
          ClassDescriptor = 0x18,                               
          ClassDescriptorToClassName = 0x8,                     
-         ColorShiftBottom = 0x20c,                             
-         ColorShiftTop = 0x218,                                
+         ColorShiftBottom = 0xe4,                              
+         ColorShiftTop = 0xf0,                                 
          CreatorId = 0x188,                                    
          DataModelDeleterPointer = 0x720a130,                  
          DataModelToRenderView1 = 0x1d0,                       
@@ -37,9 +40,11 @@ namespace Offsets {
          DecalTexture = 0x198,                                 
          Dimensions = 0x720,                                   
          DisplayName = 0x110,                                  
+         EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
          FakeDataModelPointer = 0x720a138,                     
          FakeDataModelToRealDataModel = 0x1c0,                 
+         FogColor = 0xfc,                                      
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          FramePositionOffsetX = 0x4d4,                         
@@ -60,20 +65,21 @@ namespace Offsets {
          InputObject2 = 0x110,                                 
          IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
-         JobsPointer = 0x7434348,                              
+         JobsPointer = 0x7434340,                              
          Jump = 0x1dd,                                         
          JumpPower = 0x1b0,                                    
          LocalPlayer = 0x120,                                  
          MaxHealth = 0x1b4,                                    
          MaxSlopeAngle = 0x1b8,                                
          MeshId = 0x308,                                       
-         MeshTexture = 0x708,                                  
          ModelInstance = 0x340,                                
+         MoonTextureId = 0xd8,                                 
          MousePosition = 0xec,                                 
          MoveDirection = 0x158,                                
          Name = 0x80,                                          
          NameDisplayDistance = 0x1bc,                          
          NameSize  = 0x10,                                     
+         OutDoorAmbient = 0x108,                               
          Overlap = 0x288,                                      
          Parent = 0x50,                                        
          PartPosition = 0x11c,                                 
@@ -82,7 +88,7 @@ namespace Offsets {
          PartVelocity = 0x128,                                 
          Ping = 0xd0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0x53c,                                 
+         PlaceVersion = 0x34,                                  
          PlatformName = 0xe70,                                 
          PlatformStand = 0x1df,                                
          PrimaryPart = 0x260,                                  
@@ -102,7 +108,8 @@ namespace Offsets {
          ScriptContext = 0x3d0,                                
          SensitivityPointer = 0x738bdb0,                       
          ServerIp = 0x668,                                     
-         ShapeType = 0x248,                                    
+         ShadowColor = 0x114,                                  
+         ShapeType = 0x20d,                                    
          Sit = 0x1e1,                                          
          SkyboxBk = 0xd8,                                      
          SkyboxDn = 0x100,                                     
@@ -111,7 +118,9 @@ namespace Offsets {
          SkyboxRt = 0x178,                                     
          SkyboxUp = 0x1a0,                                     
          StarCount = 0x220,                                    
+         SunTextureId = 0x1f0,                                 
          TaskSchedulerPointer = 0x7434168,                     
+         TaskSchedulerTargetFps = 0x69c6c64,                   
          Team = 0x250,                                         
          TeamColor = 0xd0,                                     
          TextLabelText = 0xde8,                                
@@ -128,7 +137,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        constexpr size_t TotalOffsets = 121;
+        Total = 130offsets;
 
     };
 }
