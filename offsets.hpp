@@ -1,4 +1,4 @@
-// Completed in 2.18861 seconds.
+// Completed in 3.77144 seconds.
 #pragma once
 #include <cstdint>
 
@@ -137,7 +137,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        Total = 130offsets;
+        Total = 130 offsets;
 
     };
 }
