@@ -1,4 +1,4 @@
-// Completed in 8.90602 seconds.
+// Completed in 2.16522 seconds.
 #pragma once
 #include <cstdint>
 
@@ -101,6 +101,7 @@ namespace Offsets {
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
          ScriptContext = 0x3d0,                                
+         SensitivityPointer = 0x74c6ef0,                       
          ServerIp = 0x628,                                     
          ShadowColor = 0x114,                                  
          ShapeType = 0x28a,                                    
@@ -131,7 +132,7 @@ namespace Offsets {
          WorldStepMax = 0x60ee844,                             
          WorldStepsOffsetAdjustRate = 0x60ee848,               
 
-         Total = 124 offsets;
+         Total = 125 offsets;
 
     };
 }
