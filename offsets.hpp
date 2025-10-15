@@ -1,8 +1,8 @@
-// Completed in 2.17593 seconds.
+// Completed in 2.8082 seconds.
 #pragma once
 #include <cstdint>
 
-// Roblox Version: version-7a4a5d7d1fb3449f
+// Roblox Version: version-267c8a63b3e74c7f
 namespace Offsets {
     enum External : uintptr_t {
 
@@ -33,14 +33,14 @@ namespace Offsets {
          ColorShiftBottom = 0xE4,                              
          ColorShiftTop = 0xF0,                                 
          CreatorId = 0x188,                                    
-         DataModelDeleterPointer = 0x7268A80,                  
+         DataModelDeleterPointer = 0x7268AC0,                  
          DataModelToRenderView2  = 0x8,                        
          DataModelToRenderView3  = 0x28,                       
          DecalTexture = 0x198,                                 
          DisplayName = 0x110,                                  
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
-         FakeDataModelPointer = 0x7268A88,                     
+         FakeDataModelPointer = 0x7268AC8,                     
          FakeDataModelToRealDataModel = 0x1C0,                 
          FogColor = 0xFC,                                      
          FogEnd = 0x134,                                       
@@ -51,7 +51,7 @@ namespace Offsets {
          FramePositionY = 0x4E0,                               
          FrameRotation = 0x188,                                
          GameId = 0x190,                                       
-         GameLoaded = 0x6B,                                    
+         GameLoaded = 0x640,                                   
          Gender = 0xE30,                                       
          GetSetImplementation = 0xA0,                          
          GlobalShadows = 0x130,                                
@@ -63,7 +63,7 @@ namespace Offsets {
          InputObject2 = 0x110,                                 
          IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
-         JobsPointer = 0x75BE390,                              
+         JobsPointer = 0x75BE3D0,                              
          Jump = 0x1DD,                                         
          JumpPower = 0x1B0,                                    
          LocalPlayer = 0x120,                                  
@@ -91,7 +91,7 @@ namespace Offsets {
          PlatformStand = 0x1DF,                                
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x36B,                               
+         PrimitiveCount = 0x3EB,                               
          PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
@@ -101,7 +101,7 @@ namespace Offsets {
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
          ScriptContext = 0x3D0,                                
-         SensitivityPointer = 0x74C6EF0,                       
+         SensitivityPointer = 0x74C6F30,                       
          ServerIp = 0x628,                                     
          ShadowColor = 0x114,                                  
          ShapeType = 0x28A,                                    
@@ -114,7 +114,7 @@ namespace Offsets {
          SkyboxUp = 0x1A0,                                     
          StarCount = 0x220,                                    
          SunTextureId = 0x1F0,                                 
-         TaskSchedulerPointer = 0x75BE1B8,                     
+         TaskSchedulerPointer = 0x75BE1F8,                     
          TaskSchedulerTargetFps = 0x6A23E04,                   
          Team = 0x250,                                         
          TeamColor = 0xD0,                                     
