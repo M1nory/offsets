@@ -1,4 +1,4 @@
-// Completed in 2.11836 seconds.
+// Completed in 2.05587 seconds.
 #pragma once
 #include <cstdint>
 
@@ -61,6 +61,7 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
+         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
          JobsPointer = 0x7434340,                              
          Jump = 0x1dd,                                         
@@ -96,10 +97,12 @@ namespace Offsets {
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6090ef8, 
+         RequireBypass = 0x870,                                
          RigType = 0x1c8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
          ScriptContext = 0x3d0,                                
+         SensitivityPointer = 0x738bdb0,                       
          ServerIp = 0x668,                                     
          ShadowColor = 0x114,                                  
          ShapeType = 0x272,                                    
@@ -130,7 +133,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-         Total = 123 offsets;
+         Total = 126 offsets;
 
     };
 }
