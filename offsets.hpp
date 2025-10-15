@@ -1,4 +1,4 @@
-// Completed in 3.77144 seconds.
+// Completed in 2.11836 seconds.
 #pragma once
 #include <cstdint>
 
@@ -34,11 +34,9 @@ namespace Offsets {
          ColorShiftTop = 0xf0,                                 
          CreatorId = 0x188,                                    
          DataModelDeleterPointer = 0x720a130,                  
-         DataModelToRenderView1 = 0x1d0,                       
          DataModelToRenderView2  = 0x8,                        
          DataModelToRenderView3  = 0x28,                       
          DecalTexture = 0x198,                                 
-         Dimensions = 0x720,                                   
          DisplayName = 0x110,                                  
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
@@ -53,7 +51,7 @@ namespace Offsets {
          FramePositionY = 0x4d8,                               
          FrameRotation = 0x188,                                
          GameId = 0x190,                                       
-         GameLoaded = 0x680,                                   
+         GameLoaded = 0x3b3,                                   
          Gender = 0xe30,                                       
          GetSetImplementation = 0xa0,                          
          GlobalShadows = 0x130,                                
@@ -63,7 +61,6 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
-         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
          JobsPointer = 0x7434340,                              
          Jump = 0x1dd,                                         
@@ -72,6 +69,7 @@ namespace Offsets {
          MaxHealth = 0x1b4,                                    
          MaxSlopeAngle = 0x1b8,                                
          MeshId = 0x308,                                       
+         MeshTexture = 0xf08,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xd8,                                 
          MousePosition = 0xec,                                 
@@ -93,23 +91,18 @@ namespace Offsets {
          PlatformStand = 0x1df,                                
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x4c0,                               
-         PrimitiveValidateValue = 0x6,                         
-         PrimitivesPointer1 = 0x3d0,                           
-         PrimitivesPointer2 = 0x210,                           
+         PrimitiveCount = 0x36b,                               
          PropertyDescriptor = 0xd48,                           
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6090ef8, 
-         RequireBypass = 0x870,                                
          RigType = 0x1c8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
          ScriptContext = 0x3d0,                                
-         SensitivityPointer = 0x738bdb0,                       
          ServerIp = 0x668,                                     
          ShadowColor = 0x114,                                  
-         ShapeType = 0x20d,                                    
+         ShapeType = 0x272,                                    
          Sit = 0x1e1,                                          
          SkyboxBk = 0xd8,                                      
          SkyboxDn = 0x100,                                     
@@ -127,7 +120,7 @@ namespace Offsets {
          Texture = 0x198,                                      
          UserId = 0x288,                                       
          Value = 0xd0,                                         
-         ViewMatrix = 0x4b0,                                   
+         ViewMatrix = 0xd90,                                   
          VisualEnginePointer = 0x6f6fc30,                      
          VisualEngineToDataModel1 = 0x700,                     
          VisualEngineToDataModel2 = 0x1c0,                     
@@ -137,7 +130,7 @@ namespace Offsets {
          WorldStepMax = 0x6094818,                             
          WorldStepsOffsetAdjustRate = 0x609481c,               
 
-        Total = 130 offsets;
+         Total = 123 offsets;
 
     };
 }
