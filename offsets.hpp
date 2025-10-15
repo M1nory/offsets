@@ -1,4 +1,4 @@
-// Completed in 2.68506 seconds.
+// Completed in 2.31968 seconds.
 #pragma once
 #include <cstdint>
 
@@ -8,7 +8,7 @@ namespace Offsets {
 
          Adornee = 0xD0,                                       
          Ambient = 0xD8,                                       
-         Anchored = 0x26D,                                     
+         Anchored = 0x28D,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
          AutoJump = 0x1D8,                                     
@@ -21,9 +21,9 @@ namespace Offsets {
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
          CameraSubject = 0xE8,                                 
-         CanCollide = 0x26D,                                   
+         CanCollide = 0x28D,                                   
          CanCollideMask = 0x8,                                 
-         CanTouch = 0x26D,                                     
+         CanTouch = 0x28D,                                     
          CanTouchMask = 0x10,                                  
          CelestialBodiesShown = 0x228,                         
          Children = 0x60,                                      
