@@ -1,4 +1,4 @@
-// Completed in 2.32279 seconds.
+// Completed in 8.92118 seconds.
 #pragma once
 #include <cstdint>
 
@@ -34,9 +34,11 @@ namespace Offsets {
          ColorShiftTop = 0xF0,                                 
          CreatorId = 0x188,                                    
          DataModelDeleterPointer = 0x7268AC0,                  
+         DataModelToRenderView1 = 0x1D0,                       
          DataModelToRenderView2  = 0x8,                        
          DataModelToRenderView3  = 0x28,                       
          DecalTexture = 0x198,                                 
+         Dimensions = 0x720,                                   
          DisplayName = 0x110,                                  
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
@@ -61,6 +63,7 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
+         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
          JobsPointer = 0x75BE3D0,                              
          Jump = 0x1DD,                                         
@@ -95,6 +98,7 @@ namespace Offsets {
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
+         RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -120,7 +124,7 @@ namespace Offsets {
          Texture = 0x198,                                      
          UserId = 0x288,                                       
          Value = 0xD0,                                         
-         ViewMatrix = 0xD90,                                   
+         ViewMatrix = 0x4B0,                                   
          VisualEnginePointer = 0x6FCC830,                      
          VisualEngineToDataModel1 = 0x700,                     
          VisualEngineToDataModel2 = 0x1C0,                     
@@ -130,7 +134,7 @@ namespace Offsets {
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
 
-         Total = 123 offsets;
+         Total = 127 offsets;
 
     };
 }
