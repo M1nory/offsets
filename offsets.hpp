@@ -1,4 +1,4 @@
-// Completed in 2.9027 seconds.
+// Completed in 2.68506 seconds.
 #pragma once
 #include <cstdint>
 
@@ -94,6 +94,9 @@ namespace Offsets {
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
          PrimitiveCount = 0x3EB,                               
+         PrimitiveValidateValue = 0x6,                         
+         PrimitivesPointer1 = 0x3D0,                           
+         PrimitivesPointer2 = 0x210,                           
          PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
@@ -134,7 +137,7 @@ namespace Offsets {
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
 
-         Total = 127 offsets;
+         Total = 130 offsets;
 
     };
 }
