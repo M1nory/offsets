@@ -1,14 +1,14 @@
-// Completed in 2.32407 seconds.
+// Completed in 2.38806 seconds.
 #pragma once
 #include <cstdint>
 
-// Roblox Version: version-267c8a63b3e74c7f
+// Roblox Version: version-7a4a5d7d1fb3449f
 namespace Offsets {
     enum External : uintptr_t {
 
          Adornee = 0xD0,                                       
          Ambient = 0xD8,                                       
-         Anchored = 0x21B,                                     
+         Anchored = 0x28D,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
          AutoJump = 0x1D8,                                     
@@ -21,9 +21,9 @@ namespace Offsets {
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
          CameraSubject = 0xE8,                                 
-         CanCollide = 0x21B,                                   
+         CanCollide = 0x28D,                                   
          CanCollideMask = 0x8,                                 
-         CanTouch = 0x21B,                                     
+         CanTouch = 0x28D,                                     
          CanTouchMask = 0x10,                                  
          CelestialBodiesShown = 0x228,                         
          Children = 0x60,                                      
@@ -33,7 +33,7 @@ namespace Offsets {
          ColorShiftBottom = 0xE4,                              
          ColorShiftTop = 0xF0,                                 
          CreatorId = 0x188,                                    
-         DataModelDeleterPointer = 0x7268AC0,                  
+         DataModelDeleterPointer = 0x7268A80,                  
          DataModelToRenderView1 = 0x1D0,                       
          DataModelToRenderView2  = 0x8,                        
          DataModelToRenderView3  = 0x28,                       
@@ -42,7 +42,7 @@ namespace Offsets {
          DisplayName = 0x110,                                  
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
-         FakeDataModelPointer = 0x7268AC8,                     
+         FakeDataModelPointer = 0x7268A88,                     
          FakeDataModelToRealDataModel = 0x1C0,                 
          FogColor = 0xFC,                                      
          FogEnd = 0x134,                                       
@@ -66,13 +66,14 @@ namespace Offsets {
          InputObject2 = 0x110,                                 
          IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
-         JobsPointer = 0x75BE3D0,                              
+         JobsPointer = 0x75BE390,                              
          Jump = 0x1DD,                                         
          JumpPower = 0x1B0,                                    
          LocalPlayer = 0x120,                                  
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
+         MeshTexture = 0xB08,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -89,15 +90,15 @@ namespace Offsets {
          PartVelocity = 0x128,                                 
          Ping = 0xD0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0x4FC,                                 
+         PlaceVersion = 0x3C1,                                 
          PlatformName = 0xE70,                                 
          PlatformStand = 0x1DF,                                
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x343,                               
+         PrimitiveCount = 0x333,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
-         PrimitivesPointer2 = 0x210,                           
+         PrimitivesPointer2 = 0xBA,                            
          PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
@@ -107,7 +108,7 @@ namespace Offsets {
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
          ScriptContext = 0x3D0,                                
-         SensitivityPointer = 0x74C6F30,                       
+         SensitivityPointer = 0x74C6EF0,                       
          ServerIp = 0x628,                                     
          ShadowColor = 0x114,                                  
          ShapeType = 0x28A,                                    
@@ -120,7 +121,7 @@ namespace Offsets {
          SkyboxUp = 0x1A0,                                     
          StarCount = 0x220,                                    
          SunTextureId = 0x1F0,                                 
-         TaskSchedulerPointer = 0x75BE1F8,                     
+         TaskSchedulerPointer = 0x75BE1B8,                     
          TaskSchedulerTargetFps = 0x6A23E04,                   
          Team = 0x250,                                         
          TeamColor = 0xD0,                                     
@@ -138,7 +139,7 @@ namespace Offsets {
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
 
-         Total = 131 offsets;
+         Total = 132 offsets;
 
     };
 }
