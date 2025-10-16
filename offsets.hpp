@@ -1,4 +1,4 @@
-// Completed in 3.29214 seconds.
+// Completed in 7.6341 seconds.
 #pragma once
 #include <cstdint>
 
@@ -14,6 +14,7 @@ namespace Offsets {
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
          BrickColor = 0x1BC,                                   
+         Brightness = 0x120,                                   
          Camera = 0x448,                                       
          CameraFocus = 0x128,                                  
          CameraMaxZoomDistance = 0x2D0,                        
@@ -64,7 +65,6 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
-         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
          JobsPointer = 0x75BE390,                              
          Jump = 0x1DD,                                         
@@ -92,6 +92,7 @@ namespace Offsets {
          PlaceVersion = 0x4FC,                                 
          PlatformName = 0xE70,                                 
          PlatformStand = 0x1DF,                                
+         PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
          PrimitiveCount = 0x3EB,                               
@@ -101,7 +102,6 @@ namespace Offsets {
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
-         RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
