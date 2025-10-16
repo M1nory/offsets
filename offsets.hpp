@@ -1,4 +1,4 @@
-// Completed in 2.07815 seconds.
+// Completed in 2.25805 seconds.
 #pragma once
 #include <cstdint>
 
@@ -8,7 +8,7 @@ namespace Offsets {
 
          Adornee = 0xD0,                                       
          Ambient = 0xD8,                                       
-         Anchored = 0x28D,                                     
+         Anchored = 0x21B,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
          AutoJump = 0x1D8,                                     
@@ -21,9 +21,9 @@ namespace Offsets {
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
          CameraSubject = 0xE8,                                 
-         CanCollide = 0x28D,                                   
+         CanCollide = 0x21B,                                   
          CanCollideMask = 0x8,                                 
-         CanTouch = 0x28D,                                     
+         CanTouch = 0x21B,                                     
          CanTouchMask = 0x10,                                  
          CelestialBodiesShown = 0x228,                         
          Children = 0x60,                                      
@@ -47,6 +47,7 @@ namespace Offsets {
          FogColor = 0xFC,                                      
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
+         ForceNewAFKDurationPointer = 0x60EADA8,               
          FramePositionOffsetX = 0x4DC,                         
          FramePositionOffsetY = 0x4E4,                         
          FramePositionX = 0x4D8,                               
@@ -72,7 +73,6 @@ namespace Offsets {
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
-         MeshTexture = 0x708,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -94,7 +94,7 @@ namespace Offsets {
          PlatformStand = 0x1DF,                                
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x3EB,                               
+         PrimitiveCount = 0x343,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
