@@ -1,4 +1,4 @@
-// Completed in 7.6341 seconds.
+// Completed in 4.11847 seconds.
 #pragma once
 #include <cstdint>
 
@@ -57,7 +57,7 @@ namespace Offsets {
          GameId = 0x190,                                       
          GameLoaded = 0x640,                                   
          Gender = 0xE30,                                       
-         GetSetImplementation = 0x0;                           // FAILED TO DUMP
+         GetSetImplementation = 0xA0,                          
          GlobalShadows = 0x130,                                
          GlobalState = 0x138,                                  
          Health = 0x194,                                       
@@ -65,6 +65,7 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
+         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
          JobsPointer = 0x75BE390,                              
          Jump = 0x1DD,                                         
@@ -99,9 +100,11 @@ namespace Offsets {
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
+         PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
+         RequireBypass = 0x0;                                  // FAILED TO DUMP
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -137,7 +140,7 @@ namespace Offsets {
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
 
-         Total = 130 offsets;
+         Total = 133 offsets;
 
     };
 }
