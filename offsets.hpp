@@ -1,4 +1,4 @@
-// Completed in 2.31968 seconds.
+// Completed in 2.07815 seconds.
 #pragma once
 #include <cstdint>
 
@@ -72,6 +72,7 @@ namespace Offsets {
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
+         MeshTexture = 0x708,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -137,7 +138,7 @@ namespace Offsets {
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
 
-         Total = 130 offsets;
+         Total = 131 offsets;
 
     };
 }
