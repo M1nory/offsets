@@ -1,4 +1,4 @@
-// Completed in 4.84412 seconds.
+// Completed in 2.68585 seconds.
 #pragma once
 #include <cstdint>
 
@@ -57,7 +57,7 @@ namespace Offsets {
          GameId = 0x190,                                       
          GameLoaded = 0x640,                                   
          Gender = 0xE30,                                       
-         GetSetImplementation = 0xA0,                          
+         GetSetImplementation = 0x0,                           // FAILED TO DUMP
          GlobalShadows = 0x134,                                
          GlobalState = 0x138,                                  
          Health = 0x194,                                       
