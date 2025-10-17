@@ -1,4 +1,4 @@
-// Completed in 3.017 seconds.
+// Completed in 3.70933 seconds.
 #pragma once
 #include <cstdint>
 
@@ -57,7 +57,7 @@ namespace Offsets {
          GameId = 0x190,                         
          GameLoaded = 0x640,                     
          Gender = 0xE30,                         
-         GetSetImplementation = 0x0,             // FAILED TO DUMP
+         GetSetImplementation = 0xA0,            
          GlobalShadows = 0x148,                  
          GlobalState = 0x138,                    
          Health = 0x194,                         
@@ -74,6 +74,7 @@ namespace Offsets {
          MaxHealth = 0x1B4,                      
          MaxSlopeAngle = 0x1B8,                  
          MeshId = 0x308,                         
+         MeshTexture = 0xF08,                    
          ModelInstance = 0x340,                  
          MoonTextureId = 0xD8,                   
          MousePosition = 0xEC,                   
@@ -90,13 +91,13 @@ namespace Offsets {
          PartVelocity = 0x128,                   
          Ping = 0xD0,                            
          PlaceId = 0x198,                        
-         PlaceVersion = 0x428,                   
+         PlaceVersion = 0x414,                   
          PlatformName = 0xE70,                   
          PlatformStand = 0x1DF,                  
          PlayerMouse = 0xCA0,                    
          PrimaryPart = 0x260,                    
          Primitive = 0x170,                      
-         PrimitiveCount = 0x39B,                 
+         PrimitiveCount = 0x35B,                 
          PrimitiveValidateValue = 0x6,           
          PrimitivesPointer1 = 0x3D0,             
          PrimitivesPointer2 = 0x210,             
@@ -141,7 +142,7 @@ namespace Offsets {
          WorldStepsOffsetAdjustRate = 0x60EE848, 
          body_30fps_cnt = 0x613E468,             
 
-         // Total = 134 offsets;
+         // Total = 135 offsets;
 
     };
 }
