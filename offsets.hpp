@@ -1,4 +1,4 @@
-// Completed in 2.61312 seconds.
+// Completed in 4.84412 seconds.
 #pragma once
 #include <cstdint>
 
@@ -7,15 +7,17 @@ namespace Offsets {
     enum External : uintptr_t {
 
          Adornee = 0xD0,                                       
+         Ambient = 0xD8,                                       
          Anchored = 0x28D,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
          BrickColor = 0x1BC,                                   
+         Brightness = 0x120,                                   
          Camera = 0x448,                                       
          CameraFocus = 0x128,                                  
-         CameraMaxZoomDistance = 0x155,                        
+         CameraMaxZoomDistance = 0x2D0,                        
          CameraMinZoomDistance = 0x2D4,                        
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
@@ -29,20 +31,23 @@ namespace Offsets {
          ChildrenSize = 0x8,                                   
          ClassDescriptor = 0x18,                               
          ClassDescriptorToClassName = 0x8,                     
-         ColorShiftBottom = 0x20C,                             
-         ColorShiftTop = 0x218,                                
+         ColorShiftBottom = 0xE4,                              
+         ColorShiftTop = 0xF0,                                 
          CreatorId = 0x188,                                    
          DataModelDeleterPointer = 0x7268A80,                  
          DataModelToRenderView1 = 0x1D0,                       
          DataModelToRenderView2  = 0x8,                        
          DataModelToRenderView3  = 0x28,                       
          DecalTexture = 0x198,                                 
+         Dimensions = 0x720,                                   
          DisplayName = 0x110,                                  
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
          FakeDataModelPointer = 0x7268A88,                     
          FakeDataModelToRealDataModel = 0x1C0,                 
-         FogStart = 0x1004,                                    
+         FogColor = 0xFC,                                      
+         FogEnd = 0x134,                                       
+         FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x60EADA8,               
          FramePositionOffsetX = 0x4DC,                         
          FramePositionOffsetY = 0x4E4,                         
@@ -53,6 +58,7 @@ namespace Offsets {
          GameLoaded = 0x640,                                   
          Gender = 0xE30,                                       
          GetSetImplementation = 0xA0,                          
+         GlobalShadows = 0x134,                                
          GlobalState = 0x138,                                  
          Health = 0x194,                                       
          HumanoidState = 0x858,                                
@@ -76,6 +82,7 @@ namespace Offsets {
          Name = 0x80,                                          
          NameDisplayDistance = 0x1BC,                          
          NameSize  = 0x10,                                     
+         OutDoorAmbient = 0x108,                               
          Overlap = 0x288,                                      
          Parent = 0x50,                                        
          PartPosition = 0x11C,                                 
@@ -105,6 +112,7 @@ namespace Offsets {
          ScriptContext = 0x3D0,                                
          SensitivityPointer = 0x74C6EF0,                       
          ServerIp = 0x628,                                     
+         ShadowColor = 0x114,                                  
          ShapeType = 0x28A,                                    
          Sit = 0x1E1,                                          
          SkyboxBk = 0xD8,                                      
@@ -119,11 +127,11 @@ namespace Offsets {
          TaskSchedulerTargetFps = 0x6A23E04,                   
          Team = 0x250,                                         
          TeamColor = 0xD0,                                     
-         TextLabelText = 0xA98,                                
+         TextLabelText = 0xDF0,                                
          Texture = 0x198,                                      
          UserId = 0x288,                                       
          Value = 0xD0,                                         
-         ViewMatrix = 0xD90,                                   
+         ViewMatrix = 0x4B0,                                   
          VisualEnginePointer = 0x6FCC830,                      
          VisualEngineToDataModel1 = 0x700,                     
          VisualEngineToDataModel2 = 0x1C0,                     
@@ -132,9 +140,9 @@ namespace Offsets {
          Workspace = 0x178,                                    
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
-         body_30fps_cnt = 0x613E468,                           
+         body_30fps_cnt = 0x6FCE7E8,                           
 
-         // Total = 127 offsets;
+         // Total = 135 offsets;
 
     };
 }
