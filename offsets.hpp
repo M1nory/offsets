@@ -1,4 +1,4 @@
-// Completed in 3.55347 seconds.
+// Completed in 2.64721 seconds.
 #pragma once
 #include <cstdint>
 
@@ -13,7 +13,6 @@ namespace Offsets {
          AnimationId = 0xD0,                                   
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
-         Body_30FPS_Cnt = 0x7FF6B05CE7E8,                      
          BrickColor = 0x1BC,                                   
          Brightness = 0x120,                                   
          Camera = 0x448,                                       
@@ -99,7 +98,7 @@ namespace Offsets {
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
-         PropertyDescriptor = 0x0;                             // FAILED TO DUMP
+         PropertyDescriptor = 0xB400007C4A75B97E,              
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
@@ -138,6 +137,7 @@ namespace Offsets {
          Workspace = 0x178,                                    
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
+         body_30fps_cnt = 0x6FCE7E8,                           
 
          Total = 132 offsets;
 
