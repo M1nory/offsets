@@ -1,4 +1,4 @@
-// Completed in 2.93222 seconds.
+// Completed in 4.50823 seconds.
 #pragma once
 #include <cstdint>
 
@@ -65,7 +65,6 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
-         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
          JobsPointer = 0x75BE390,                              
          Jump = 0x1DD,                                         
@@ -97,7 +96,7 @@ namespace Offsets {
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x3EB,                               
+         PrimitiveCount = 0x393,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
@@ -105,7 +104,6 @@ namespace Offsets {
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
-         RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -140,9 +138,9 @@ namespace Offsets {
          Workspace = 0x178,                                    
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
-         body_30fps_cnt = 0x6FCE7E8,                           
+         body_30fps_cnt = 0x613E468,                           
 
-         // Total = 135 offsets;
+         // Total = 133 offsets;
 
     };
 }
