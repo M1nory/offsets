@@ -1,4 +1,4 @@
-// Completed in 2.78976 seconds.
+// Completed in 2.52789 seconds.
 #pragma once
 #include <cstdint>
 
@@ -140,7 +140,7 @@ namespace Offsets {
          Workspace = 0x178,                                    
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
-         body_30fps_cnt = 0x6FCE7E8,                           
+         body_30fps_cnt = 0x613E468,                           
 
          // Total = 135 offsets;
 
