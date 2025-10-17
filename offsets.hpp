@@ -1,4 +1,4 @@
-// Completed in 4.11847 seconds.
+// Completed in 9.25024 seconds.
 #pragma once
 #include <cstdint>
 
@@ -39,7 +39,6 @@ namespace Offsets {
          DataModelToRenderView2  = 0x8,                        
          DataModelToRenderView3  = 0x28,                       
          DecalTexture = 0x198,                                 
-         Dimensions = 0x720,                                   
          DisplayName = 0x110,                                  
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
@@ -96,15 +95,15 @@ namespace Offsets {
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x3EB,                               
+         PrimitiveCount = 0x393,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
-         PropertyDescriptor = 0x16C8,                          
+         PropertyDescriptor = 0x0;                             // FAILED TO DUMP
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
-         RequireBypass = 0x0;                                  // FAILED TO DUMP
+         RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -128,9 +127,10 @@ namespace Offsets {
          TeamColor = 0xD0,                                     
          TextLabelText = 0xDF0,                                
          Texture = 0x198,                                      
+         Transparency = 0xF0,                                  
          UserId = 0x288,                                       
          Value = 0xD0,                                         
-         ViewMatrix = 0x4B0,                                   
+         ViewMatrix = 0xD90,                                   
          VisualEnginePointer = 0x6FCC830,                      
          VisualEngineToDataModel1 = 0x700,                     
          VisualEngineToDataModel2 = 0x1C0,                     
@@ -139,8 +139,9 @@ namespace Offsets {
          Workspace = 0x178,                                    
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
+         body_30fps_cnt = 0x7FF6B05CE7E8,                      
 
-         Total = 133 offsets;
+         Total = 134 offsets;
 
     };
 }
