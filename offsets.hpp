@@ -1,4 +1,4 @@
-// Completed in 2.33441 seconds.
+// Completed in 3.6755 seconds.
 #pragma once
 #include <cstdint>
 
@@ -17,7 +17,7 @@ namespace Offsets {
          Brightness = 0x120,                                   
          Camera = 0x448,                                       
          CameraFocus = 0x128,                                  
-         CameraMaxZoomDistance = 0x2D0,                        
+         CameraMaxZoomDistance = 0x155,                        
          CameraMinZoomDistance = 0x2D4,                        
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
@@ -74,6 +74,7 @@ namespace Offsets {
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
+         MeshTexture = 0xB08,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -96,15 +97,15 @@ namespace Offsets {
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x393,                               
+         PrimitiveCount = 0x3EB,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
-         PropertyDescriptor = 0x3C91CF,                        
+         PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
-         RequireBypass = 0x0;                                  // FAILED TO DUMP
+         RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -126,9 +127,8 @@ namespace Offsets {
          TaskSchedulerTargetFps = 0x6A23E04,                   
          Team = 0x250,                                         
          TeamColor = 0xD0,                                     
-         TextLabelText = 0xDF0,                                
+         TextLabelText = 0xA98,                                
          Texture = 0x198,                                      
-         Transparency = 0xF0,                                  
          UserId = 0x288,                                       
          Value = 0xD0,                                         
          ViewMatrix = 0x4B0,                                   
@@ -140,7 +140,7 @@ namespace Offsets {
          Workspace = 0x178,                                    
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
-         body_30fps_cnt = 0x6FCE7E8,                           
+         body_30fps_cnt = 0x613E468,                           
 
          // Total = 135 offsets;
 
