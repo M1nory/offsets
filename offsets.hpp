@@ -1,4 +1,4 @@
-// Completed in 2.34578 seconds.
+// Completed in 2.93222 seconds.
 #pragma once
 #include <cstdint>
 
@@ -58,6 +58,7 @@ namespace Offsets {
          GameLoaded = 0x640,                                   
          Gender = 0xE30,                                       
          GetSetImplementation = 0x0,                           // FAILED TO DUMP
+         GlobalShadows = 0x148,                                
          GlobalState = 0x138,                                  
          Health = 0x194,                                       
          HumanoidState = 0x858,                                
@@ -141,7 +142,7 @@ namespace Offsets {
          WorldStepsOffsetAdjustRate = 0x60EE848,               
          body_30fps_cnt = 0x6FCE7E8,                           
 
-         // Total = 134 offsets;
+         // Total = 135 offsets;
 
     };
 }
