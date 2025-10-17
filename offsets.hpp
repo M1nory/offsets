@@ -1,4 +1,4 @@
-// Completed in 9.25024 seconds.
+// Completed in 3.55347 seconds.
 #pragma once
 #include <cstdint>
 
@@ -13,6 +13,7 @@ namespace Offsets {
          AnimationId = 0xD0,                                   
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
+         Body_30FPS_Cnt = 0x7FF6B05CE7E8,                      
          BrickColor = 0x1BC,                                   
          Brightness = 0x120,                                   
          Camera = 0x448,                                       
@@ -64,7 +65,6 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
-         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
          JobsPointer = 0x75BE390,                              
          Jump = 0x1DD,                                         
@@ -103,7 +103,6 @@ namespace Offsets {
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
-         RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -139,9 +138,8 @@ namespace Offsets {
          Workspace = 0x178,                                    
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
-         body_30fps_cnt = 0x7FF6B05CE7E8,                      
 
-         Total = 134 offsets;
+         Total = 132 offsets;
 
     };
 }
