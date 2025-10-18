@@ -1,4 +1,4 @@
-// Completed in 3.62951 seconds.
+// Completed in 4.18579 seconds.
 #pragma once
 #include <cstdint>
 
@@ -17,7 +17,7 @@ namespace Offsets {
          Brightness = 0x120,                                   
          Camera = 0x448,                                       
          CameraFocus = 0x128,                                  
-         CameraMaxZoomDistance = 0x1B5,                        
+         CameraMaxZoomDistance = 0x2D0,                        
          CameraMinZoomDistance = 0x2D4,                        
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
@@ -74,6 +74,7 @@ namespace Offsets {
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
+         MeshTexture = 0xF08,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -96,7 +97,7 @@ namespace Offsets {
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x35B,                               
+         PrimitiveCount = 0x34B,                               
          PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
@@ -139,7 +140,7 @@ namespace Offsets {
          WorldStepsOffsetAdjustRate = 0x60EE848,               
          body_30fps_cnt = 0x613E468,                           
 
-         // Total = 132 offsets;
+         // Total = 133 offsets;
 
     };
 }
