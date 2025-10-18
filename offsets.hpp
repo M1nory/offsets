@@ -1,4 +1,4 @@
-// Completed in 8.69949 seconds.
+// Completed in 4.86272 seconds.
 #pragma once
 #include <cstdint>
 
@@ -67,10 +67,8 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
-         JobEnd = 0x1D8,                                       
+         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
-         JobName = 0x18,                                       
-         JobStart = 0x1D0,                                     
          JobsPointer = 0x75BE390,                              
          Jump = 0x1DD,                                         
          JumpPower = 0x1B0,                                    
@@ -78,7 +76,6 @@ namespace Offsets {
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
-         MeshTexture = 0x708,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -95,13 +92,13 @@ namespace Offsets {
          PartVelocity = 0x128,                                 
          Ping = 0xD0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0x4FC,                                 
+         PlaceVersion = 0xA6,                                  
          PlatformName = 0xE70,                                 
          PlatformStand = 0x1DF,                                
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x393,                               
+         PrimitiveCount = 0x39B,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
@@ -109,6 +106,7 @@ namespace Offsets {
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
+         RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -136,7 +134,6 @@ namespace Offsets {
          Value = 0xD0,                                         
          ViewMatrix = 0x4B0,                                   
          ViewportSize = 0x2E8,                                 
-         VisualEngine = 0x10,                                  
          VisualEnginePointer = 0x6FCC830,                      
          VisualEngineToDataModel1 = 0x700,                     
          VisualEngineToDataModel2 = 0x1C0,                     
@@ -146,9 +143,9 @@ namespace Offsets {
          WorkspaceToWorld = 0x3D0,                             
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
-         body_30fps_cnt = 0x6FCE7E8,                           
+         body_30fps_cnt = 0x613E468,                           
 
-         // Total = 141 offsets;
+         // Total = 138 offsets;
 
     };
 }
