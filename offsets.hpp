@@ -1,4 +1,4 @@
-// Completed in 3.07756 seconds.
+// Completed in 3.62951 seconds.
 #pragma once
 #include <cstdint>
 
@@ -17,7 +17,7 @@ namespace Offsets {
          Brightness = 0x120,                                   
          Camera = 0x448,                                       
          CameraFocus = 0x128,                                  
-         CameraMaxZoomDistance = 0x2D0,                        
+         CameraMaxZoomDistance = 0x1B5,                        
          CameraMinZoomDistance = 0x2D4,                        
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
@@ -55,7 +55,7 @@ namespace Offsets {
          FramePositionY = 0x4E0,                               
          FrameRotation = 0x188,                                
          GameId = 0x190,                                       
-         GameLoaded = 0x6B,                                    
+         GameLoaded = 0x640,                                   
          Gender = 0xE30,                                       
          GetSetImplementation = 0xA0,                          
          GlobalShadows = 0x148,                                
@@ -65,6 +65,7 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
+         IsCoreScript = 0x188,                                 
          JobId = 0x138,                                        
          JobsPointer = 0x75BE390,                              
          Jump = 0x1DD,                                         
@@ -73,7 +74,6 @@ namespace Offsets {
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
-         MeshTexture = 0xF08,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -90,20 +90,18 @@ namespace Offsets {
          PartVelocity = 0x128,                                 
          Ping = 0xD0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0x34,                                  
+         PlaceVersion = 0x4FC,                                 
          PlatformName = 0xE70,                                 
          PlatformStand = 0x1DF,                                
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x32B,                               
-         PrimitiveValidateValue = 0x6,                         
-         PrimitivesPointer1 = 0x3D0,                           
-         PrimitivesPointer2 = 0x210,                           
+         PrimitiveCount = 0x35B,                               
          PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
+         RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -137,12 +135,11 @@ namespace Offsets {
          Walkspeed = 0x1D4,                                    
          WalkspeedCheck = 0x3A0,                               
          Workspace = 0x178,                                    
-         WorkspaceToWorld = 0x3D0,                             
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
-         body_30fps_cnt = 0x6FCE7E8,                           
+         body_30fps_cnt = 0x613E468,                           
 
-         // Total = 135 offsets;
+         // Total = 132 offsets;
 
     };
 }
