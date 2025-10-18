@@ -1,4 +1,4 @@
-// Completed in 4.18579 seconds.
+// Completed in 2.59086 seconds.
 #pragma once
 #include <cstdint>
 
@@ -22,6 +22,7 @@ namespace Offsets {
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
          CameraSubject = 0xE8,                                 
+         CameraType = 0x158,                                   
          CanCollide = 0x28D,                                   
          CanCollideMask = 0x8,                                 
          CanTouch = 0x28D,                                     
@@ -61,6 +62,7 @@ namespace Offsets {
          GlobalShadows = 0x148,                                
          GlobalState = 0x138,                                  
          Health = 0x194,                                       
+         HipHeight = 0x1A0,                                    
          HumanoidState = 0x858,                                
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
@@ -74,7 +76,6 @@ namespace Offsets {
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
-         MeshTexture = 0xF08,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -98,6 +99,9 @@ namespace Offsets {
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
          PrimitiveCount = 0x34B,                               
+         PrimitiveValidateValue = 0x6,                         
+         PrimitivesPointer1 = 0x3D0,                           
+         PrimitivesPointer2 = 0x210,                           
          PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
@@ -136,11 +140,12 @@ namespace Offsets {
          Walkspeed = 0x1D4,                                    
          WalkspeedCheck = 0x3A0,                               
          Workspace = 0x178,                                    
+         WorkspaceToWorld = 0x3D0,                             
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
          body_30fps_cnt = 0x613E468,                           
 
-         // Total = 133 offsets;
+         // Total = 138 offsets;
 
     };
 }
