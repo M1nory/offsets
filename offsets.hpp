@@ -1,4 +1,4 @@
-// Completed in 4.37392 seconds.
+// Completed in 2.95785 seconds.
 #pragma once
 #include <cstdint>
 
@@ -8,7 +8,7 @@ namespace Offsets {
 
          Adornee = 0xD0,                                       
          Ambient = 0xD8,                                       
-         Anchored = 0x212,                                     
+         Anchored = 0x28D,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
          AutoJump = 0x1D8,                                     
@@ -23,9 +23,9 @@ namespace Offsets {
          CameraRotation = 0xF8,                                
          CameraSubject = 0xE8,                                 
          CameraType = 0x158,                                   
-         CanCollide = 0x212,                                   
+         CanCollide = 0x28D,                                   
          CanCollideMask = 0x8,                                 
-         CanTouch = 0x212,                                     
+         CanTouch = 0x28D,                                     
          CanTouchMask = 0x10,                                  
          CelestialBodiesShown = 0x228,                         
          Children = 0x60,                                      
@@ -68,7 +68,10 @@ namespace Offsets {
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
          IsCoreScript = 0x188,                                 
+         JobEnd = 0x1D8,                                       
          JobId = 0x138,                                        
+         JobName = 0x18,                                       
+         JobStart = 0x1D0,                                     
          JobsPointer = 0x75BE390,                              
          Jump = 0x1DD,                                         
          JumpPower = 0x1B0,                                    
@@ -76,6 +79,7 @@ namespace Offsets {
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x308,                                       
+         MeshTexture = 0x338,                                  
          ModelInstance = 0x340,                                
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
@@ -92,14 +96,17 @@ namespace Offsets {
          PartVelocity = 0x128,                                 
          Ping = 0xD0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0x4FC,                                 
+         PlaceVersion = 0x1C0,                                 
          PlatformName = 0xE70,                                 
          PlatformStand = 0x1DF,                                
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x39B,                               
-         PropertyDescriptor = 0x0,                             // FAILED TO DUMP
+         PrimitiveCount = 0x3EB,                               
+         PrimitiveValidateValue = 0x6,                         
+         PrimitivesPointer1 = 0x3D0,                           
+         PrimitivesPointer2 = 0x1B0,                           
+         PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
@@ -137,11 +144,11 @@ namespace Offsets {
          Walkspeed = 0x1D4,                                    
          WalkspeedCheck = 0x3A0,                               
          Workspace = 0x178,                                    
+         WorkspaceToWorld = 0x3D0,                             
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
-         body_30fps_cnt = 0x613E468,                           
 
-         // Total = 134 offsets;
+         // Total = 141 offsets;
 
     };
 }
