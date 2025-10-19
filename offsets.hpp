@@ -1,4 +1,4 @@
-// Completed in 2.95785 seconds.
+// Completed in 3.11716 seconds.
 #pragma once
 #include <cstdint>
 
@@ -96,16 +96,16 @@ namespace Offsets {
          PartVelocity = 0x128,                                 
          Ping = 0xD0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0x1C0,                                 
+         PlaceVersion = 0x4FC,                                 
          PlatformName = 0xE70,                                 
          PlatformStand = 0x1DF,                                
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x3EB,                               
+         PrimitiveCount = 0x34B,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
-         PrimitivesPointer2 = 0x1B0,                           
+         PrimitivesPointer2 = 0x210,                           
          PropertyDescriptor = 0x16C8,                          
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
@@ -118,7 +118,7 @@ namespace Offsets {
          SensitivityPointer = 0x74C6EF0,                       
          ServerIp = 0x628,                                     
          ShadowColor = 0x114,                                  
-         ShapeType = 0x28A,                                    
+         ShapeType = 0x260,                                    
          Sit = 0x1E1,                                          
          SkyboxBk = 0xD8,                                      
          SkyboxDn = 0x100,                                     
@@ -132,7 +132,7 @@ namespace Offsets {
          TaskSchedulerTargetFps = 0x6A23E04,                   
          Team = 0x250,                                         
          TeamColor = 0xD0,                                     
-         TextLabelText = 0xDF0,                                
+         TextLabelText = 0xA98,                                
          Texture = 0x198,                                      
          UserId = 0x288,                                       
          Value = 0xD0,                                         
