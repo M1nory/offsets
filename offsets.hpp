@@ -1,4 +1,4 @@
-// Completed in 3.9522 seconds.
+// Completed in 3.47776 seconds.
 #pragma once
 #include <cstdint>
 
@@ -15,6 +15,10 @@ namespace Offsets {
          AttributeToValue = 0x18,                              
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
+         BeamBrightness   = 0x190,                             
+         BeamColor  = 0x124,                                   
+         BeamLightEmission   = 0x19C,                          
+         BeamLightInfuence   = 0x1A0,                          
          BrickColor = 0x1BC,                                   
          Brightness = 0x120,                                   
          Camera = 0x448,                                       
@@ -98,13 +102,13 @@ namespace Offsets {
          PartVelocity = 0x128,                                 
          Ping = 0xD0,                                          
          PlaceId = 0x198,                                      
-         PlaceVersion = 0x4FC,                                 
+         PlaceVersion = 0x1C0,                                 
          PlatformName = 0xE70,                                 
          PlatformStand = 0x1DF,                                
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x3C1,                               
+         PrimitiveCount = 0x33B,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
@@ -150,7 +154,7 @@ namespace Offsets {
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
 
-         // Total = 143 offsets;
+         // Total = 147 offsets;
 
     };
 }
