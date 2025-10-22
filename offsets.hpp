@@ -1,4 +1,4 @@
-// Completed in 3.85848 seconds.
+// Completed in 2.62297 seconds.
 #pragma once
 #include <cstdint>
 
@@ -11,6 +11,7 @@ namespace Offsets {
          Anchored = 0x28D,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
+         AttributeToValue = 0x18,                              
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
          BrickColor = 0x1BC,                                   
@@ -102,10 +103,11 @@ namespace Offsets {
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x3D3,                               
+         PrimitiveCount = 0x33B,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
+         PropertyDescriptor = 0x0,                             // FAILED TO DUMP
          ReadOnlyGravity = 0x990,                              
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x60EAF18, 
@@ -117,7 +119,7 @@ namespace Offsets {
          SensitivityPointer = 0x74C6EF0,                       
          ServerIp = 0x628,                                     
          ShadowColor = 0x114,                                  
-         ShapeType = 0x260,                                    
+         ShapeType = 0x28A,                                    
          Sit = 0x1E1,                                          
          SkyboxBk = 0xD8,                                      
          SkyboxDn = 0x100,                                     
@@ -131,7 +133,7 @@ namespace Offsets {
          TaskSchedulerTargetFps = 0x6A23E04,                   
          Team = 0x250,                                         
          TeamColor = 0xD0,                                     
-         TextLabelText = 0xA98,                                
+         TextLabelText = 0xDF0,                                
          Texture = 0x198,                                      
          UserId = 0x288,                                       
          Value = 0xD0,                                         
@@ -144,8 +146,10 @@ namespace Offsets {
          WalkspeedCheck = 0x3A0,                               
          Workspace = 0x178,                                    
          WorkspaceToWorld = 0x3D0,                             
+         WorldStepMax = 0x60EE844,                             
+         WorldStepsOffsetAdjustRate = 0x60EE848,               
 
-         // Total = 138 offsets;
+         // Total = 142 offsets;
 
     };
 }
