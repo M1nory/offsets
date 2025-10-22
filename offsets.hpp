@@ -1,4 +1,4 @@
-// Completed in 2.62297 seconds.
+// Completed in 3.9522 seconds.
 #pragma once
 #include <cstdint>
 
@@ -11,6 +11,7 @@ namespace Offsets {
          Anchored = 0x28D,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
+         AttributeToNext = 0x58,                               
          AttributeToValue = 0x18,                              
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
@@ -103,7 +104,7 @@ namespace Offsets {
          PlayerMouse = 0xCA0,                                  
          PrimaryPart = 0x260,                                  
          Primitive = 0x170,                                    
-         PrimitiveCount = 0x33B,                               
+         PrimitiveCount = 0x3C1,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x3D0,                           
          PrimitivesPointer2 = 0x210,                           
@@ -149,7 +150,7 @@ namespace Offsets {
          WorldStepMax = 0x60EE844,                             
          WorldStepsOffsetAdjustRate = 0x60EE848,               
 
-         // Total = 142 offsets;
+         // Total = 143 offsets;
 
     };
 }
