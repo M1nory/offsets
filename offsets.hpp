@@ -1,4 +1,4 @@
-// Completed in 3.05593 seconds.
+// Completed in 3.06007 seconds.
 #pragma once
 #include <cstdint>
 
@@ -108,7 +108,7 @@ namespace Offsets {
          PlayerMouse = 0xCC8,                                  
          PrimaryPart = 0x248,                                  
          Primitive = 0x148,                                    
-         PrimitiveCount = 0x32B,                               
+         PrimitiveCount = 0x327,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x398,                           
          PrimitivesPointer2 = 0x210,                           
