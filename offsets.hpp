@@ -1,4 +1,4 @@
-// Completed in 3.06007 seconds.
+// Completed in 4.70044 seconds.
 #pragma once
 #include <cstdint>
 
@@ -140,6 +140,7 @@ namespace Offsets {
          TeamColor = 0xD0,                                     
          TextLabelText = 0xDF8,                                
          Texture = 0x198,                                      
+         Transparency = 0xF0,                                  
          UserId = 0x2A8,                                       
          Value = 0xD0,                                         
          ViewMatrix = 0x4B0,                                   
@@ -154,7 +155,7 @@ namespace Offsets {
          WorldStepMax = 0x621C840,                             
          WorldStepsOffsetAdjustRate = 0x621C810,               
 
-         // Total = 147 offsets;
+         // Total = 148 offsets;
 
     };
 }
