@@ -1,4 +1,4 @@
-// Completed in 4.81964 seconds.
+// Completed in 3.12685 seconds.
 #pragma once
 #include <cstdint>
 
@@ -8,7 +8,7 @@ namespace Offsets {
 
          Adornee = 0xD0,                                       
          Ambient = 0xD8,                                       
-         Anchored = 0x241,                                     
+         Anchored = 0x28D,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
          AttributeToNext = 0x58,                               
@@ -29,9 +29,9 @@ namespace Offsets {
          CameraRotation = 0xF8,                                
          CameraSubject = 0xE8,                                 
          CameraType = 0x158,                                   
-         CanCollide = 0x241,                                   
+         CanCollide = 0x28D,                                   
          CanCollideMask = 0x8,                                 
-         CanTouch = 0x241,                                     
+         CanTouch = 0x28D,                                     
          CanTouchMask = 0x10,                                  
          CelestialBodiesShown = 0x228,                         
          Children = 0x60,                                      
@@ -89,6 +89,7 @@ namespace Offsets {
          Jump = 0x1DD,                                         
          JumpPower = 0x1B0,                                    
          LocalPlayer = 0x130,                                  
+         MaterialType = 0x260,                                 
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x2E0,                                       
@@ -163,7 +164,7 @@ namespace Offsets {
          WorldStepMax = 0x629A850,                             
          WorldStepsOffsetAdjustRate = 0x629A854,               
 
-         // Total = 156 offsets;
+         // Total = 157 offsets;
 
     };
 }
