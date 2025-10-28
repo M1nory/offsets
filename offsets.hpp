@@ -1,4 +1,4 @@
-// Completed in 3.48263 seconds.
+// Completed in 2.90577 seconds.
 #pragma once
 #include <cstdint>
 
@@ -44,9 +44,9 @@ namespace Offsets {
          DataModelDeleterPointer = 0x73A7080,                  
          DataModelToRenderView1 = 0x1D0,                       
          DataModelToRenderView2 = 0x8,                         
-         DataModelToRenderView3 = 0x28,                        
+         DataModelToRenderView3 = 0x20,                        
          DecalTexture = 0x198,                                 
-         Dimensions = 0x720,                                   
+         Dimensions = 0x760,                                   
          DisplayName = 0x130,                                  
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
@@ -56,10 +56,10 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x6241510,               
-         FramePositionOffsetX = 0x4DC,                         
          FramePositionOffsetX = 0x500,                         
-         FramePositionOffsetY = 0x4E4,                         
+         FramePositionOffsetX = 0x4DC,                         
          FramePositionOffsetY = 0x504,                         
+         FramePositionOffsetY = 0x4E4,                         
          FramePositionX = 0x4D8,                               
          FramePositionY = 0x4E0,                               
          FrameRotation = 0x188,                                
@@ -88,7 +88,6 @@ namespace Offsets {
          JobsPointer = 0x778C2C0,                              
          Jump = 0x1DD,                                         
          JumpPower = 0x1B0,                                    
-         MaterialType = 0x260,                                 
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x2E0,                                       
@@ -121,7 +120,7 @@ namespace Offsets {
          PrimitivesPointer2 = 0x210,                           
          PropertyDescriptor = 0x1B88,                          
          ReadOnlyGravity = 0x958,                              
-         RenderViewToVisualEngine = 0x10,                      
+         RenderViewToVisualEngine = 0xE0,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6B27044, 
          RequireBypass = 0x870,                                
          RigType = 0x1C8,                                      
@@ -152,7 +151,7 @@ namespace Offsets {
          Transparency = 0xF0,                                  
          UserId = 0x2A8,                                       
          Value = 0xD0,                                         
-         ViewMatrix = 0x4B0,                                   
+         ViewMatrix = 0x4F0,                                   
          ViewportSize = 0x2E8,                                 
          VisualEnginePointer = 0x7109240,                      
          VisualEngineToDataModel1 = 0x700,                     
@@ -164,7 +163,7 @@ namespace Offsets {
          WorldStepMax = 0x621C810,                             
          WorldStepsOffsetAdjustRate = 0x621C80C,               
 
-         // Total = 157 offsets;
+         // Total = 156 offsets;
 
     };
 }
