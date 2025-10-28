@@ -1,4 +1,4 @@
-// Completed in 2.53213 seconds.
+// Completed in 3.48263 seconds.
 #pragma once
 #include <cstdint>
 
@@ -56,10 +56,10 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x6241510,               
-         FramePositionOffsetX = 0x500,                         
          FramePositionOffsetX = 0x4DC,                         
-         FramePositionOffsetY = 0x504,                         
+         FramePositionOffsetX = 0x500,                         
          FramePositionOffsetY = 0x4E4,                         
+         FramePositionOffsetY = 0x504,                         
          FramePositionX = 0x4D8,                               
          FramePositionY = 0x4E0,                               
          FrameRotation = 0x188,                                
@@ -88,6 +88,7 @@ namespace Offsets {
          JobsPointer = 0x778C2C0,                              
          Jump = 0x1DD,                                         
          JumpPower = 0x1B0,                                    
+         MaterialType = 0x260,                                 
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x2E0,                                       
@@ -163,7 +164,7 @@ namespace Offsets {
          WorldStepMax = 0x621C810,                             
          WorldStepsOffsetAdjustRate = 0x621C80C,               
 
-         // Total = 156 offsets;
+         // Total = 157 offsets;
 
     };
 }
