@@ -1,4 +1,4 @@
-// Completed in 3.12685 seconds.
+// Completed in 2.76539 seconds.
 #pragma once
 #include <cstdint>
 
@@ -56,13 +56,13 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x62BF7D0,               
-         FramePositionOffsetX = 0x548,                         
          FramePositionOffsetX = 0x524,                         
-         FramePositionOffsetY = 0x54C,                         
          FramePositionOffsetY = 0x52C,                         
          FramePositionX = 0x520,                               
          FramePositionY = 0x528,                               
          FrameRotation = 0x188,                                
+         FrameSizeOffsetX = 0x548,                             
+         FrameSizeOffsetY = 0x54C,                             
          FrameSizeX = 0x540,                                   
          FrameSizeY = 0x544,                                   
          GameId = 0x190,                                       
