@@ -1,4 +1,4 @@
-// Completed in 2.76539 seconds.
+// Completed in 4.55158 seconds.
 #pragma once
 #include <cstdint>
 
@@ -40,6 +40,7 @@ namespace Offsets {
          ClassDescriptorToClassName = 0x8,                     
          ColorShiftBottom = 0xE4,                              
          ColorShiftTop = 0xF0,                                 
+         Country = 0x110,                                      
          CreatorId = 0x188,                                    
          DataModelDeleterPointer = 0x74287C0,                  
          DataModelToRenderView1 = 0x1D0,                       
@@ -48,6 +49,7 @@ namespace Offsets {
          DecalTexture = 0x198,                                 
          Dimensions = 0x720,                                   
          DisplayName = 0x130,                                  
+         DistributedGameTime = 0x430,                          
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
          FakeDataModelPointer = 0x74287C8,                     
@@ -71,6 +73,8 @@ namespace Offsets {
          GetSetImplementation = 0xA0,                          
          GlobalShadows = 0x148,                                
          GlobalState = 0x138,                                  
+         Gravity = 0x1B0,                                      
+         GravityContainer = 0x398,                             
          Health = 0x194,                                       
          HeartbeatTask = 0x100,                                
          HipHeight = 0x1A0,                                    
@@ -100,7 +104,7 @@ namespace Offsets {
          MoveDirection = 0x158,                                
          Name = 0x80,                                          
          NameDisplayDistance = 0x1BC,                          
-         NameSize  = 0x10,                                     
+         NameSize = 0x10,                                      
          OutDoorAmbient = 0x108,                               
          Overlap = 0x288,                                      
          Parent = 0x50,                                        
@@ -117,7 +121,7 @@ namespace Offsets {
          PrimaryPart = 0x248,                                  
          Primitive = 0x148,                                    
          PrimitiveCount = 0x430,                               
-         PrimitiveValidateValue = 0x6,                         
+         PrimitiveValidateValue1 = 0x6,                        
          PrimitivesPointer1 = 0x398,                           
          PrimitivesPointer2 = 0x210,                           
          PropertyDescriptor = 0x5C8,                           
@@ -128,6 +132,7 @@ namespace Offsets {
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
+         Scale = 0x154,                                        
          ScriptContext = 0x3D0,                                
          SensitivityPointer = 0x74FA650,                       
          ServerIp = 0x5D8,                                     
@@ -164,9 +169,8 @@ namespace Offsets {
          WorldStepMax = 0x629A850,                             
          WorldStepsOffsetAdjustRate = 0x629A854,               
 
-         // Total = 157 offsets;
+         // Total = 162 offsets;
 
     };
 }
-
 
