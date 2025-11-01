@@ -1,4 +1,4 @@
-// Completed in 5.32067 seconds.
+// Completed in 5.05645 seconds.
 #pragma once
 #include <cstdint>
 
