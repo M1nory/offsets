@@ -1,4 +1,4 @@
-// Completed in 4.55158 seconds.
+// Completed in 4.47364 seconds.
 #pragma once
 #include <cstdint>
 
@@ -11,6 +11,8 @@ namespace Offsets {
          Anchored = 0x28D,                                     
          AnchoredMask = 0x2,                                   
          AnimationId = 0xD0,                                   
+         AttributeContainer = 0x40,                            
+         AttributeList = 0x18,                                 
          AttributeToNext = 0x58,                               
          AttributeToValue = 0x18,                              
          AutoJump = 0x1D8,                                     
@@ -23,7 +25,7 @@ namespace Offsets {
          Brightness = 0x120,                                   
          Camera = 0x410,                                       
          CameraFocus = 0x128,                                  
-         CameraMaxZoomDistance = 0x2F0,                        
+         CameraMaxZoomDistance = 0x1B5,                        
          CameraMinZoomDistance = 0x2F4,                        
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
@@ -53,6 +55,7 @@ namespace Offsets {
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
          FakeDataModelPointer = 0x74287C8,                     
+         FakeDataModelToDataModel = 0x1B0,                     
          FakeDataModelToRealDataModel = 0x1C0,                 
          FogColor = 0xFC,                                      
          FogEnd = 0x134,                                       
@@ -82,8 +85,6 @@ namespace Offsets {
          HumanoidStateId = 0x20,                               
          InputObject1 = 0x100,                                 
          InputObject2 = 0x110,                                 
-         InstanceAttributePointer1 = 0x40,                     
-         InstanceAttributePointer2 = 0x18,                     
          IsCoreScript = 0x188,                                 
          JobEnd = 0x1D8,                                       
          JobId = 0x138,                                        
@@ -126,6 +127,8 @@ namespace Offsets {
          PrimitivesPointer2 = 0x210,                           
          PropertyDescriptor = 0x5C8,                           
          ReadOnlyGravity = 0x958,                              
+         RenderJobToFakeDataModel = 0x38,                      
+         RenderJobToRenderView = 0x200,                        
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6BAA7D0, 
          RequireBypass = 0x870,                                
@@ -169,7 +172,7 @@ namespace Offsets {
          WorldStepMax = 0x629A850,                             
          WorldStepsOffsetAdjustRate = 0x629A854,               
 
-         // Total = 162 offsets;
+         // Total = 165 offsets;
 
     };
 }
