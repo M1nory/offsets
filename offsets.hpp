@@ -1,4 +1,4 @@
-// Completed in 4.47364 seconds.
+// Completed in 4.66201 seconds.
 #pragma once
 #include <cstdint>
 
@@ -25,12 +25,12 @@ namespace Offsets {
          Brightness = 0x120,                                   
          Camera = 0x410,                                       
          CameraFocus = 0x128,                                  
-         CameraMaxZoomDistance = 0x1B5,                        
+         CameraMaxZoomDistance = 0x2F0,                        
          CameraMinZoomDistance = 0x2F4,                        
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
          CameraSubject = 0xE8,                                 
-         CameraType = 0x158,                                   
+         CameraType = 0xA6,                                    
          CanCollide = 0x28D,                                   
          CanCollideMask = 0x8,                                 
          CanTouch = 0x28D,                                     
@@ -71,7 +71,7 @@ namespace Offsets {
          FrameSizeX = 0x540,                                   
          FrameSizeY = 0x544,                                   
          GameId = 0x190,                                       
-         GameLoaded = 0x5F0,                                   
+         GameLoaded = 0x6B,                                    
          Gender = 0xE58,                                       
          GetSetImplementation = 0xA0,                          
          GlobalShadows = 0x148,                                
@@ -128,7 +128,7 @@ namespace Offsets {
          PropertyDescriptor = 0x5C8,                           
          ReadOnlyGravity = 0x958,                              
          RenderJobToFakeDataModel = 0x38,                      
-         RenderJobToRenderView = 0x200,                        
+         RenderJobToRenderView = 0x218,                        
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6BAA7D0, 
          RequireBypass = 0x870,                                
@@ -166,7 +166,7 @@ namespace Offsets {
          VisualEngineToDataModel1 = 0x700,                     
          VisualEngineToDataModel2 = 0x1C0,                     
          Walkspeed = 0x1D4,                                    
-         WalkspeedCheck = 0x3A0,                               
+         WalkspeedCheck = 0x2DE,                               
          Workspace = 0x178,                                    
          WorkspaceToWorld = 0x398,                             
          WorldStepMax = 0x629A850,                             
