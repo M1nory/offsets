@@ -1,11 +1,12 @@
-// Completed in 5.68703 seconds.
-#pragma once
-#include <cstdint>
+Total offsets: 178
+Dumped at: 01:14 02/11/2025
 
-// Roblox Version: version-889d2588b25a43d1
+inline std::string ClientVersion = "version-889d2588b25a43d1";
+
 namespace Offsets {
     enum External : uintptr_t {
 
+         AccountAge = 0x2EC,                                   
          Adornee = 0xD0,                                       
          Ambient = 0xD8,                                       
          Anchored = 0x28D,                                     
@@ -17,10 +18,12 @@ namespace Offsets {
          AttributeToValue = 0x18,                              
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
+         BackgroundColor3 = 0x550,                             
          BeamBrightness   = 0x190,                             
          BeamColor  = 0x124,                                   
          BeamLightEmission   = 0x19C,                          
          BeamLightInfuence   = 0x1A0,                          
+         BorderColor3 = 0x55C,                                 
          BrickColor = 0x194,                                   
          Brightness = 0x120,                                   
          Camera = 0x410,                                       
@@ -40,6 +43,7 @@ namespace Offsets {
          ChildrenSize = 0x8,                                   
          ClassDescriptor = 0x18,                               
          ClassDescriptorToClassName = 0x8,                     
+         ClockTime = 0x1B8,                                    
          ColorShiftBottom = 0xE4,                              
          ColorShiftTop = 0xF0,                                 
          Country = 0x110,                                      
@@ -61,18 +65,19 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x62BF7D0,               
-         FramePositionOffsetX = 0x524,                         
-         FramePositionOffsetY = 0x52C,                         
-         FramePositionX = 0x520,                               
-         FramePositionY = 0x528,                               
+         FramePositionOffsetX = 0x364,                         
+         FramePositionOffsetY = 0x36C,                         
+         FramePositionX = 0x360,                               
+         FramePositionY = 0x368,                               
          FrameRotation = 0x188,                                
          FrameSizeOffsetX = 0x548,                             
          FrameSizeOffsetY = 0x54C,                             
          FrameSizeX = 0x540,                                   
          FrameSizeY = 0x544,                                   
          GameId = 0x190,                                       
-         GameLoaded = 0x6B,                                    
+         GameLoaded = 0x5F0,                                   
          Gender = 0xE58,                                       
+         GeographicLatitude = 0x190,                           
          GetSetImplementation = 0xA0,                          
          GlobalShadows = 0x148,                                
          GlobalState = 0x138,                                  
@@ -93,6 +98,7 @@ namespace Offsets {
          JobsPointer = 0x755F8C0,                              
          Jump = 0x1DD,                                         
          JumpPower = 0x1B0,                                    
+         LayoutOrder = 0x58C,                                  
          LocalPlayer = 0x130,                                  
          MaterialType = 0x260,                                 
          MaxHealth = 0x1B4,                                    
@@ -100,6 +106,7 @@ namespace Offsets {
          MeshId = 0x2E0,                                       
          MeshTexture = 0x310,                                  
          ModelInstance = 0x360,                                
+         MoonAngularSize = 0x21C,                              
          MoonTextureId = 0xD8,                                 
          MousePosition = 0xEC,                                 
          MoveDirection = 0x158,                                
@@ -122,7 +129,7 @@ namespace Offsets {
          PrimaryPart = 0x248,                                  
          Primitive = 0x148,                                    
          PrimitiveCount = 0x430,                               
-         PrimitiveValidateValue1 = 0x6,                        
+         PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x398,                           
          PrimitivesPointer2 = 0x210,                           
          PropertyDescriptor = 0x5C8,                           
@@ -132,6 +139,7 @@ namespace Offsets {
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6BAA7D0, 
          RequireBypass = 0x870,                                
+         RichText = 0xAE0,                                     
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
@@ -146,15 +154,20 @@ namespace Offsets {
          SkyboxDn = 0x100,                                     
          SkyboxFt = 0x128,                                     
          SkyboxLf = 0x150,                                     
+         SkyboxOrientation = 0x210,                            
          SkyboxRt = 0x178,                                     
          SkyboxUp = 0x1A0,                                     
+         SpecialMeshId = 0x108,                                
+         SpecialMeshScale = 0xDC,                              
          StarCount = 0x220,                                    
+         SunAngularSize = 0x224,                               
          SunTextureId = 0x1F0,                                 
          TaskSchedulerPointer = 0x755F6E8,                     
          TaskSchedulerTargetFps = 0x631D5E8,                   
          Team = 0x270,                                         
          TeamColor = 0xD0,                                     
-         TextLabelText = 0xAE0,                                
+         TextColor3 = 0xEF0,                                   
+         TextLabelText = 0xE40,                                
          Texture = 0x198,                                      
          Tool_Grip_Position = 0x454,                           
          Transparency = 0xF0,                                  
@@ -172,7 +185,7 @@ namespace Offsets {
          WorldStepMax = 0x629A850,                             
          WorldStepsOffsetAdjustRate = 0x629A854,               
 
-         // Total = 165 offsets;
+         // Total = 178 offsets;
 
     };
 }
