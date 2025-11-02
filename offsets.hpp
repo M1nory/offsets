@@ -1,5 +1,5 @@
-Total offsets: 178
-Dumped at: 01:14 02/11/2025
+//Total offsets: 178
+//Dumped at: 01:21 02/11/2025
 
 inline std::string ClientVersion = "version-889d2588b25a43d1";
 
@@ -19,10 +19,10 @@ namespace Offsets {
          AutoJump = 0x1D8,                                     
          AutoRotate = 0x1D9,                                   
          BackgroundColor3 = 0x550,                             
-         BeamBrightness   = 0x190,                             
-         BeamColor  = 0x124,                                   
-         BeamLightEmission   = 0x19C,                          
-         BeamLightInfuence   = 0x1A0,                          
+         BeamBrightness = 0x190,                               
+         BeamColor = 0x124,                                    
+         BeamLightEmission = 0x19C,                            
+         BeamLightInfuence = 0x1A0,                            
          BorderColor3 = 0x55C,                                 
          BrickColor = 0x194,                                   
          Brightness = 0x120,                                   
@@ -65,10 +65,10 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x62BF7D0,               
-         FramePositionOffsetX = 0x364,                         
-         FramePositionOffsetY = 0x36C,                         
-         FramePositionX = 0x360,                               
-         FramePositionY = 0x368,                               
+         FramePositionOffsetX = 0x524,                         
+         FramePositionOffsetY = 0x52C,                         
+         FramePositionX = 0x520,                               
+         FramePositionY = 0x528,                               
          FrameRotation = 0x188,                                
          FrameSizeOffsetX = 0x548,                             
          FrameSizeOffsetY = 0x54C,                             
