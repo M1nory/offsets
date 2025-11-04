@@ -1,5 +1,5 @@
-//Total offsets: 178
-//Dumped at: 01:21 02/11/2025
+//Total offsets: 180
+//Dumped at: 16:45 04/11/2025
 
 inline std::string ClientVersion = "version-889d2588b25a43d1";
 
@@ -65,10 +65,10 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x62BF7D0,               
-         FramePositionOffsetX = 0x524,                         
-         FramePositionOffsetY = 0x52C,                         
-         FramePositionX = 0x520,                               
-         FramePositionY = 0x528,                               
+         FramePositionOffsetX = 0x364,                         
+         FramePositionOffsetY = 0x36C,                         
+         FramePositionX = 0x360,                               
+         FramePositionY = 0x368,                               
          FrameRotation = 0x188,                                
          FrameSizeOffsetX = 0x548,                             
          FrameSizeOffsetY = 0x54C,                             
@@ -125,6 +125,7 @@ namespace Offsets {
          PlaceVersion = 0x1B4,                                 
          PlatformName = 0xE98,                                 
          PlatformStand = 0x1DF,                                
+         PlayerConfigurerPointer = 0x7404FF0,                  
          PlayerMouse = 0xCC8,                                  
          PrimaryPart = 0x248,                                  
          Primitive = 0x148,                                    
@@ -132,10 +133,11 @@ namespace Offsets {
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x398,                           
          PrimitivesPointer2 = 0x210,                           
+         Print = 0x190FDE0,                                    
          PropertyDescriptor = 0x5C8,                           
          ReadOnlyGravity = 0x958,                              
          RenderJobToFakeDataModel = 0x38,                      
-         RenderJobToRenderView = 0x218,                        
+         RenderJobToRenderView = 0x200,                        
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6BAA7D0, 
          RequireBypass = 0x870,                                
@@ -184,8 +186,6 @@ namespace Offsets {
          WorkspaceToWorld = 0x398,                             
          WorldStepMax = 0x629A850,                             
          WorldStepsOffsetAdjustRate = 0x629A854,               
-
-         // Total = 178 offsets;
 
     };
 }
