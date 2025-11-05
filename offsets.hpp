@@ -1,5 +1,5 @@
 //Total offsets: 179
-//Dumped at: 23:50 05/11/2025
+//Dumped at: 00:20 06/11/2025
 
 inline std::string ClientVersion = "version-f6dd34ecac7b4642";
 
@@ -7,7 +7,7 @@ namespace Offsets {
     enum External : uintptr_t {
 
          AccountAge = 0x2EC,                                   
-         Adornee = 0x60,                                       
+         Adornee = 0xD0,                                       
          Ambient = 0xD8,                                       
          Anchored = 0x294,                                     
          AnchoredMask = 0x2,                                   
@@ -55,7 +55,7 @@ namespace Offsets {
          DecalTexture = 0x198,                                 
          Dimensions = 0x720,                                   
          DisplayName = 0x130,                                  
-         DistributedGameTime = 0x430,                          
+         DistributedGameTime = 0x910,                          
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
          FakeDataModelPointer = 0x759FD28,                     
@@ -75,7 +75,7 @@ namespace Offsets {
          FrameSizeX = 0x540,                                   
          FrameSizeY = 0x544,                                   
          GameId = 0x190,                                       
-         GameLoaded = 0x7B,                                    
+         GameLoaded = 0x5F0,                                   
          Gender = 0xE60,                                       
          GeographicLatitude = 0x190,                           
          GetSetImplementation = 0xA0,                          
