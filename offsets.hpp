@@ -1,5 +1,5 @@
 //Total offsets: 179
-//Dumped at: 00:20 06/11/2025
+//Dumped at: 01:08 06/11/2025
 
 inline std::string ClientVersion = "version-f6dd34ecac7b4642";
 
@@ -55,7 +55,7 @@ namespace Offsets {
          DecalTexture = 0x198,                                 
          Dimensions = 0x720,                                   
          DisplayName = 0x130,                                  
-         DistributedGameTime = 0x910,                          
+         DistributedGameTime = 0x430,                          
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
          FakeDataModelPointer = 0x759FD28,                     
@@ -132,11 +132,11 @@ namespace Offsets {
          PrimitiveCount = 0x430,                               
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x398,                           
-         PrimitivesPointer2 = 0x2E8,                           
+         PrimitivesPointer2 = 0x238,                           
          Print = 0x1968440,                                    
          ReadOnlyGravity = 0x958,                              
          RenderJobToFakeDataModel = 0x38,                      
-         RenderJobToRenderView = 0x200,                        
+         RenderJobToRenderView = 0x218,                        
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x6D06FE4, 
          RequireBypass = 0x8E0,                                
