@@ -1,5 +1,5 @@
 //Total offsets: 179
-//Dumped at: 01:08 06/11/2025
+//Dumped at: 23:34 07/11/2025
 
 inline std::string ClientVersion = "version-f6dd34ecac7b4642";
 
@@ -64,7 +64,7 @@ namespace Offsets {
          FogColor = 0xFC,                                      
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
-         ForceNewAFKDurationPointer = 0x6417A20,               
+         ForceNewAFKDurationPointer = 0x63EDD74,               
          FramePositionOffsetX = 0x524,                         
          FramePositionOffsetY = 0x52C,                         
          FramePositionX = 0x520,                               
@@ -75,7 +75,7 @@ namespace Offsets {
          FrameSizeX = 0x540,                                   
          FrameSizeY = 0x544,                                   
          GameId = 0x190,                                       
-         GameLoaded = 0x5F0,                                   
+         GameLoaded = 0x373,                                   
          Gender = 0xE60,                                       
          GeographicLatitude = 0x190,                           
          GetSetImplementation = 0xA0,                          
@@ -136,9 +136,9 @@ namespace Offsets {
          Print = 0x1968440,                                    
          ReadOnlyGravity = 0x958,                              
          RenderJobToFakeDataModel = 0x38,                      
-         RenderJobToRenderView = 0x218,                        
+         RenderJobToRenderView = 0x200,                        
          RenderViewToVisualEngine = 0x10,                      
-         ReplicatorAnimationTrackLimitPerAnimator = 0x6D06FE4, 
+         ReplicatorAnimationTrackLimitPerAnimator = 0x63EDEB4, 
          RequireBypass = 0x8E0,                                
          RichText = 0xAE0,                                     
          RigType = 0x1C8,                                      
@@ -164,7 +164,7 @@ namespace Offsets {
          SunAngularSize = 0x224,                               
          SunTextureId = 0x1F0,                                 
          TaskSchedulerPointer = 0x76DE128,                     
-         TaskSchedulerTargetFps = 0x6476628,                   
+         TaskSchedulerTargetFps = 0x6D41110,                   
          Team = 0x270,                                         
          TeamColor = 0xD0,                                     
          TextColor3 = 0xEF0,                                   
@@ -183,8 +183,8 @@ namespace Offsets {
          WalkspeedCheck = 0x3A0,                               
          Workspace = 0x178,                                    
          WorkspaceToWorld = 0x398,                             
-         WorldStepMax = 0x63F1888,                             
-         WorldStepsOffsetAdjustRate = 0x63F1884,               
+         WorldStepMax = 0x63F1890,                             
+         WorldStepsOffsetAdjustRate = 0x63F1888,               
 
          // Total = 179 offsets;
 
