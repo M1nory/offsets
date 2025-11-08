@@ -1,7 +1,8 @@
 //Total offsets: 179
-//Dumped at: 13:09 08/11/2025
+//Dumped at: 13:14 08/11/2025
 
 //Dumped by @959598440587870208 || https://discord.gg/offsets
+
 inline std::string ClientVersion = "version-f6dd34ecac7b4642";
 
 namespace Offsets {
@@ -140,7 +141,7 @@ namespace Offsets {
          RenderJobToRenderView = 0x218,                        
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x63EDEB4, 
-         RequireBypass = 0x8E0,                                
+         RequireBypass = 0x0,                                  // FAILED TO DUMP
          RichText = 0xAE0,                                     
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
