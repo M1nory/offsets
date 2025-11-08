@@ -1,7 +1,7 @@
-//Total offsets: 179
-//Dumped at: 02:12 08/11/2025
+//Total offsets: 178
+//Dumped at: 13:07 08/11/2025
 
-inline std::string ClientVersion = "version-f6dd34ecac7b4642";
+//Dumped by @959598440587870208 || https://discord.gg/offsetsinline std::string ClientVersion = "version-f6dd34ecac7b4642";
 
 namespace Offsets {
     enum External : uintptr_t {
@@ -28,7 +28,7 @@ namespace Offsets {
          Brightness = 0x120,                                   
          Camera = 0x410,                                       
          CameraFocus = 0x128,                                  
-         CameraMaxZoomDistance = 0xD5,                         
+         CameraMaxZoomDistance = 0x2F0,                        
          CameraMinZoomDistance = 0x2F4,                        
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
@@ -65,10 +65,10 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x63EDD74,               
-         FramePositionOffsetX = 0x364,                         
-         FramePositionOffsetY = 0x36C,                         
-         FramePositionX = 0x360,                               
-         FramePositionY = 0x368,                               
+         FramePositionOffsetX = 0x524,                         
+         FramePositionOffsetY = 0x52C,                         
+         FramePositionX = 0x520,                               
+         FramePositionY = 0x528,                               
          FrameRotation = 0x188,                                
          FrameSizeOffsetX = 0x548,                             
          FrameSizeOffsetY = 0x54C,                             
@@ -125,7 +125,6 @@ namespace Offsets {
          PlaceVersion = 0x1B4,                                 
          PlatformName = 0xEA0,                                 
          PlatformStand = 0x1DF,                                
-         PlayerConfigurerPointer = 0x757C588,                  
          PlayerMouse = 0xCD0,                                  
          PrimaryPart = 0x248,                                  
          Primitive = 0x148,                                    
@@ -186,7 +185,7 @@ namespace Offsets {
          WorldStepMax = 0x63F1890,                             
          WorldStepsOffsetAdjustRate = 0x63F1888,               
 
-         // Total = 179 offsets;
+         // Total = 178 offsets;
 
     };
 }
