@@ -1,5 +1,5 @@
 //Total offsets: 179
-//Dumped at: 23:34 07/11/2025
+//Dumped at: 02:12 08/11/2025
 
 inline std::string ClientVersion = "version-f6dd34ecac7b4642";
 
@@ -28,7 +28,7 @@ namespace Offsets {
          Brightness = 0x120,                                   
          Camera = 0x410,                                       
          CameraFocus = 0x128,                                  
-         CameraMaxZoomDistance = 0x2F0,                        
+         CameraMaxZoomDistance = 0xD5,                         
          CameraMinZoomDistance = 0x2F4,                        
          CameraPosition = 0x11C,                               
          CameraRotation = 0xF8,                                
@@ -65,17 +65,17 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x63EDD74,               
-         FramePositionOffsetX = 0x524,                         
-         FramePositionOffsetY = 0x52C,                         
-         FramePositionX = 0x520,                               
-         FramePositionY = 0x528,                               
+         FramePositionOffsetX = 0x364,                         
+         FramePositionOffsetY = 0x36C,                         
+         FramePositionX = 0x360,                               
+         FramePositionY = 0x368,                               
          FrameRotation = 0x188,                                
          FrameSizeOffsetX = 0x548,                             
          FrameSizeOffsetY = 0x54C,                             
          FrameSizeX = 0x540,                                   
          FrameSizeY = 0x544,                                   
          GameId = 0x190,                                       
-         GameLoaded = 0x373,                                   
+         GameLoaded = 0x5F0,                                   
          Gender = 0xE60,                                       
          GeographicLatitude = 0x190,                           
          GetSetImplementation = 0xA0,                          
@@ -136,7 +136,7 @@ namespace Offsets {
          Print = 0x1968440,                                    
          ReadOnlyGravity = 0x958,                              
          RenderJobToFakeDataModel = 0x38,                      
-         RenderJobToRenderView = 0x200,                        
+         RenderJobToRenderView = 0x218,                        
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x63EDEB4, 
          RequireBypass = 0x8E0,                                
