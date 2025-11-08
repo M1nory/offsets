@@ -1,5 +1,5 @@
 //Total offsets: 179
-//Dumped at: 13:14 08/11/2025
+//Dumped at: 13:27 08/11/2025
 
 //Dumped by @959598440587870208 || https://discord.gg/offsets
 
@@ -102,7 +102,7 @@ namespace Offsets {
          JumpPower = 0x1B0,                                    
          LayoutOrder = 0x58C,                                  
          LocalPlayer = 0x130,                                  
-         MaterialType = 0x268,                                 
+         MaterialType = 0x1C7,                                 
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x2E0,                                       
@@ -122,7 +122,7 @@ namespace Offsets {
          PartRotation = 0xF8,                                  
          PartSize = 0x1D0,                                     
          PartVelocity = 0x128,                                 
-         Ping = 0xC8,                                          
+         Ping = 0xC,                                           
          PlaceId = 0x198,                                      
          PlaceVersion = 0x1B4,                                 
          PlatformName = 0xEA0,                                 
@@ -141,7 +141,7 @@ namespace Offsets {
          RenderJobToRenderView = 0x218,                        
          RenderViewToVisualEngine = 0x10,                      
          ReplicatorAnimationTrackLimitPerAnimator = 0x63EDEB4, 
-         RequireBypass = 0x0,                                  // FAILED TO DUMP
+         RequireBypass = 0x8E0,                                
          RichText = 0xAE0,                                     
          RigType = 0x1C8,                                      
          Rotation = 0x100,                                     
