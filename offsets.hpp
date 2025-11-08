@@ -1,7 +1,8 @@
 //Total offsets: 179
-//Dumped at: 13:08 08/11/2025
+//Dumped at: 13:09 08/11/2025
 
-//Dumped by @959598440587870208 || https://discord.gg/offsetsinline std::string ClientVersion = "version-f6dd34ecac7b4642";
+//Dumped by @959598440587870208 || https://discord.gg/offsets
+inline std::string ClientVersion = "version-f6dd34ecac7b4642";
 
 namespace Offsets {
     enum External : uintptr_t {
