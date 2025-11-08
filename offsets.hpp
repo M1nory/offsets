@@ -1,5 +1,5 @@
 //Total offsets: 179
-//Dumped at: 13:28 08/11/2025
+//Dumped at: 13:32 08/11/2025
 
 //Dumped by @959598440587870208 || https://discord.gg/offsets
 
@@ -57,7 +57,7 @@ namespace Offsets {
          DecalTexture = 0x198,                                 
          Dimensions = 0x720,                                   
          DisplayName = 0x130,                                  
-         DistributedGameTime = 0x908,                          
+         DistributedGameTime = 0x430,                          
          EnableDefaultVoice = 0x210,                           
          FOV = 0x160,                                          
          FakeDataModelPointer = 0x759FD28,                     
@@ -67,17 +67,17 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x63EDD74,               
-         FramePositionOffsetX = 0x364,                         
-         FramePositionOffsetY = 0x36C,                         
-         FramePositionX = 0x360,                               
-         FramePositionY = 0x368,                               
+         FramePositionOffsetX = 0x524,                         
+         FramePositionOffsetY = 0x52C,                         
+         FramePositionX = 0x520,                               
+         FramePositionY = 0x528,                               
          FrameRotation = 0x188,                                
          FrameSizeOffsetX = 0x548,                             
          FrameSizeOffsetY = 0x54C,                             
          FrameSizeX = 0x540,                                   
          FrameSizeY = 0x544,                                   
          GameId = 0x190,                                       
-         GameLoaded = 0x93,                                    
+         GameLoaded = 0x53B,                                   
          Gender = 0xE60,                                       
          GeographicLatitude = 0x190,                           
          GetSetImplementation = 0xA0,                          
@@ -102,7 +102,7 @@ namespace Offsets {
          JumpPower = 0x1B0,                                    
          LayoutOrder = 0x58C,                                  
          LocalPlayer = 0x130,                                  
-         MaterialType = 0x243,                                 
+         MaterialType = 0x266,                                 
          MaxHealth = 0x1B4,                                    
          MaxSlopeAngle = 0x1B8,                                
          MeshId = 0x2E0,                                       
