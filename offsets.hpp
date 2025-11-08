@@ -1,5 +1,5 @@
-//Total offsets: 178
-//Dumped at: 13:07 08/11/2025
+//Total offsets: 179
+//Dumped at: 13:08 08/11/2025
 
 //Dumped by @959598440587870208 || https://discord.gg/offsetsinline std::string ClientVersion = "version-f6dd34ecac7b4642";
 
@@ -125,6 +125,7 @@ namespace Offsets {
          PlaceVersion = 0x1B4,                                 
          PlatformName = 0xEA0,                                 
          PlatformStand = 0x1DF,                                
+         PlayerConfigurerPointer = 0x757C588,                  
          PlayerMouse = 0xCD0,                                  
          PrimaryPart = 0x248,                                  
          Primitive = 0x148,                                    
@@ -185,7 +186,7 @@ namespace Offsets {
          WorldStepMax = 0x63F1890,                             
          WorldStepsOffsetAdjustRate = 0x63F1888,               
 
-         // Total = 178 offsets;
+         // Total = 179 offsets;
 
     };
 }
