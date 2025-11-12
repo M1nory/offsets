@@ -1,5 +1,5 @@
 //Total offsets: 179
-//Dumped at: 13:32 08/11/2025
+//Dumped at: 00:51 12/11/2025
 
 //Dumped by @959598440587870208 || https://discord.gg/offsets
 
@@ -67,17 +67,17 @@ namespace Offsets {
          FogEnd = 0x134,                                       
          FogStart = 0x138,                                     
          ForceNewAFKDurationPointer = 0x63EDD74,               
-         FramePositionOffsetX = 0x524,                         
-         FramePositionOffsetY = 0x52C,                         
-         FramePositionX = 0x520,                               
-         FramePositionY = 0x528,                               
+         FramePositionOffsetX = 0x364,                         
+         FramePositionOffsetY = 0x36C,                         
+         FramePositionX = 0x360,                               
+         FramePositionY = 0x368,                               
          FrameRotation = 0x188,                                
          FrameSizeOffsetX = 0x548,                             
          FrameSizeOffsetY = 0x54C,                             
          FrameSizeX = 0x540,                                   
          FrameSizeY = 0x544,                                   
          GameId = 0x190,                                       
-         GameLoaded = 0x53B,                                   
+         GameLoaded = 0x7B,                                    
          Gender = 0xE60,                                       
          GeographicLatitude = 0x190,                           
          GetSetImplementation = 0xA0,                          
