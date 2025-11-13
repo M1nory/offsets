@@ -90,8 +90,8 @@ namespace Offsets {
          HipHeight = 0x198,                                    
          HumanoidState = 0x858,                                
          HumanoidStateId = 0x20,                               
-         InputObject1 = 0x108,                                 
-         InputObject2 = 0x118,                                 
+         InputObject1 = 0xF8,                                 
+         InputObject2 = 0x108,                                 
          IsCoreScript = 0x180,                                 
          JobEnd = 0x1D8,                                       
          JobId = 0x130,                                        
@@ -195,3 +195,4 @@ namespace Offsets {
 
 offsets.hpp
 12 KB
+
