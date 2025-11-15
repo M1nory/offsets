@@ -1,9 +1,9 @@
 //Total offsets: 179
-//Dumped at: 22:38 11/11/2025
+//Dumped at: 13:24 15/11/2025
 
 //Dumped by @959598440587870208 || https://discord.gg/offsets
 
-inline std::string ClientVersion = "version-b7e223555d904550";
+inline std::string ClientVersion = "version-8e6e698468a04d3f";
 
 namespace Offsets {
     enum External : uintptr_t {
@@ -66,7 +66,7 @@ namespace Offsets {
          FogColor = 0xF4,                                      
          FogEnd = 0x12C,                                       
          FogStart = 0x130,                                     
-         ForceNewAFKDurationPointer = 0x64F7D90,               
+         ForceNewAFKDurationPointer = 0x64F7D98,               
          FramePositionOffsetX = 0x51C,                         
          FramePositionOffsetY = 0x524,                         
          FramePositionX = 0x518,                               
@@ -77,7 +77,7 @@ namespace Offsets {
          FrameSizeX = 0x538,                                   
          FrameSizeY = 0x53C,                                   
          GameId = 0x188,                                       
-         GameLoaded = 0x3EB,                                   
+         GameLoaded = 0x5E8,                                   
          Gender = 0xE58,                                       
          GeographicLatitude = 0x188,                           
          GetSetImplementation = 0xA0,                          
@@ -90,7 +90,7 @@ namespace Offsets {
          HipHeight = 0x198,                                    
          HumanoidState = 0x858,                                
          HumanoidStateId = 0x20,                               
-         InputObject1 = 0xF8,                                 
+         InputObject1 = 0xF8,                                  
          InputObject2 = 0x108,                                 
          IsCoreScript = 0x180,                                 
          JobEnd = 0x1D8,                                       
@@ -135,38 +135,38 @@ namespace Offsets {
          PrimitiveValidateValue = 0x6,                         
          PrimitivesPointer1 = 0x390,                           
          PrimitivesPointer2 = 0x238,                           
-         Print = 0x19B1EE0,                                    
+         Print = 0x19B2010,                                    
          ReadOnlyGravity = 0x960,                              
          RenderJobToFakeDataModel = 0x38,                      
          RenderJobToRenderView = 0x218,                        
          RenderViewToVisualEngine = 0x10,                      
-         ReplicatorAnimationTrackLimitPerAnimator = 0x64F7EC4, 
-         RequireBypass = 0x0,                                  // FAILED TO DUMP
+         ReplicatorAnimationTrackLimitPerAnimator = 0x64F7EBC, 
+         RequireBypass = 0x914,                                
          RichText = 0xAD8,                                     
          RigType = 0x1C0,                                      
          Rotation = 0x100,                                     
          RotationVelocity = 0x134,                             
          Scale = 0x14C,                                        
-         ScriptContext = 0x3E0,                                
+         ScriptContext = 0x3F0,                                
          SensitivityPointer = 0x778C890,                       
          ServerIp = 0x5D0,                                     
          ShadowColor = 0x10C,                                  
          ShapeType = 0x1A9,                                    
          Sit = 0x1D9,                                          
-         SkyboxBk = 0xD0,                                      
-         SkyboxDn = 0xF8,                                      
-         SkyboxFt = 0x120,                                     
-         SkyboxLf = 0x148,                                     
+         SkyboxBk = 0x198,                                     
+         SkyboxBk = 0x170,                                     
+         SkyboxBk = 0x148,                                     
+         SkyboxBk = 0xF8,                                      
+         SkyboxDn = 0x120,                                     
          SkyboxOrientation = 0x208,                            
-         SkyboxRt = 0x170,                                     
-         SkyboxUp = 0x198,                                     
+         SkyboxUp = 0x1C0,                                     
          SpecialMeshId = 0x100,                                
          SpecialMeshScale = 0xD4,                              
          StarCount = 0x218,                                    
          SunAngularSize = 0x21C,                               
          SunTextureId = 0x1E8,                                 
          TaskSchedulerPointer = 0x77F3158,                     
-         TaskSchedulerTargetFps = 0x6E54CCC,                   
+         TaskSchedulerTargetFps = 0x6E54CC8,                   
          Team = 0x268,                                         
          TeamColor = 0xC8,                                     
          TextColor3 = 0xEE8,                                   
@@ -185,14 +185,11 @@ namespace Offsets {
          WalkspeedCheck = 0x3A0,                               
          Workspace = 0x170,                                    
          WorkspaceToWorld = 0x390,                             
-         WorldStepMax = 0x64FB8E8,                             
-         WorldStepsOffsetAdjustRate = 0x64FB8EC,               
+         WorldStepMax = 0x64FB8EC,                             
+         WorldStepsOffsetAdjustRate = 0x64FB8F0,               
 
          // Total = 179 offsets;
 
     };
 }
-
-offsets.hpp
-12 KB
 
