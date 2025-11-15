@@ -1,5 +1,5 @@
 //Total offsets: 179
-//Dumped at: 13:24 15/11/2025
+//Dumped at: 13:40 15/11/2025
 
 //Dumped by @959598440587870208 || https://discord.gg/offsets
 
@@ -153,12 +153,12 @@ namespace Offsets {
          ShadowColor = 0x10C,                                  
          ShapeType = 0x1A9,                                    
          Sit = 0x1D9,                                          
-         SkyboxBk = 0x198,                                     
-         SkyboxBk = 0x170,                                     
-         SkyboxBk = 0x148,                                     
          SkyboxBk = 0xF8,                                      
          SkyboxDn = 0x120,                                     
+         SkyboxFt = 0x148,                                     
+         SkyboxLf = 0x170,                                     
          SkyboxOrientation = 0x208,                            
+         SkyboxRt = 0x198,                                     
          SkyboxUp = 0x1C0,                                     
          SpecialMeshId = 0x100,                                
          SpecialMeshScale = 0xD4,                              
